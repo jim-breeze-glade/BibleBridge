@@ -1,0 +1,106 @@
+██████╗ ██╗██████╗ ██╗     ███████╗██████╗ ██████╗ ██╗██████╗  ██████╗ ███████╗
+██╔══██╗██║██╔══██╗██║     ██╔════╝██╔══██╗██╔══██╗██║██╔══██╗██╔════╝ ██╔════╝
+██████╔╝██║██████╔╝██║     █████╗  ██████╔╝██████╔╝██║██║  ██║██║  ███╗█████╗  
+██╔══██╗██║██╔══██╗██║     ██╔══╝  ██╔══██╗██╔══██╗██║██║  ██║██║   ██║██╔══╝  
+██████╔╝██║██████╔╝███████╗███████╗██████╔╝██║  ██║██║██████╔╝╚██████╔╝███████╗
+╚═════╝ ╚═╝╚═════╝ ╚══════╝╚══════╝╚═════╝ ╚═╝  ╚═╝╚═╝╚═════╝  ╚═════╝ ╚══════╝
+                                                                                 
+             ███████╗████████╗██╗   ██╗██████╗ ██╗   ██╗     █████╗ ██████╗ ██████╗ 
+             ██╔════╝╚══██╔══╝██║   ██║██╔══██╗╚██╗ ██╔╝    ██╔══██╗██╔══██╗██╔══██╗
+             ███████╗   ██║   ██║   ██║██║  ██║ ╚████╔╝     ███████║██████╔╝██████╔╝
+             ╚════██║   ██║   ██║   ██║██║  ██║  ╚██╔╝      ██╔══██║██╔═══╝ ██╔═══╝ 
+             ███████║   ██║   ╚██████╔╝██████╔╝   ██║       ██║  ██║██║     ██║     
+             ╚══════╝   ╚═╝    ╚═════╝ ╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝     ╚═╝
+
+===============================================================================
+                        MANUAL SETUP GUIDE FOR WINDOWS
+===============================================================================
+
+If the batch file (run_bible_app.bat) doesn't work, follow these steps:
+
+STEP 1: VERIFY PYTHON IS INSTALLED
+----------------------------------
+1. Open Command Prompt (cmd) or PowerShell
+2. Type: python --version
+3. You should see something like "Python 3.8.x" or higher
+4. If you get an error, download Python from: https://python.org
+   - Make sure to check "Add Python to PATH" during installation!
+
+STEP 2: NAVIGATE TO THE PROJECT FOLDER
+--------------------------------------
+1. Open Command Prompt (cmd)
+2. Navigate to where you extracted the Bible Study app
+   Example: cd C:\Users\YourName\Downloads\bible-study-app
+
+STEP 3: CREATE VIRTUAL ENVIRONMENT
+----------------------------------
+1. In the Command Prompt, type:
+   python -m venv bible_venv
+   
+2. Wait for it to finish (might take a minute)
+3. You should see a new folder called "bible_venv"
+
+STEP 4: ACTIVATE THE VIRTUAL ENVIRONMENT
+----------------------------------------
+1. Type this command:
+   bible_venv\Scripts\activate
+
+2. Your command prompt should change to show (bible_venv) at the beginning
+   Example: (bible_venv) C:\Users\YourName\Downloads\bible-study-app>
+
+STEP 5: INSTALL REQUIRED LIBRARIES
+----------------------------------
+1. Make sure you're still in the project folder with (bible_venv) showing
+2. Type:
+   pip install -r requirements.txt
+
+3. Wait for the installation to complete
+4. You should see "Successfully installed streamlit-x.x.x"
+
+STEP 6: RUN THE BIBLE STUDY APP
+-------------------------------
+1. Make sure (bible_venv) is still showing in your command prompt
+2. Type:
+   streamlit run bible_study_app.py
+
+3. The app should start and automatically open in your web browser
+4. If it doesn't open automatically, look for a message like:
+   "Local URL: http://localhost:8501"
+   Copy and paste that URL into your browser
+
+STEP 7: STOPPING THE APP
+------------------------
+1. To stop the app, go back to the Command Prompt
+2. Press Ctrl + C
+3. Type 'y' if asked to confirm
+
+TROUBLESHOOTING
+---------------
+❌ "python is not recognized"
+   → Install Python from python.org and make sure to check "Add to PATH"
+
+❌ "pip is not recognized" 
+   → Try using "python -m pip" instead of just "pip"
+
+❌ Permission errors
+   → Run Command Prompt as Administrator (right-click → "Run as administrator")
+
+❌ Port already in use
+   → Try: streamlit run bible_study_app.py --server.port 8502
+
+❌ Virtual environment won't activate
+   → Try: bible_venv\Scripts\activate.bat
+
+FUTURE RUNS
+-----------
+After the first setup, you only need to:
+1. Open Command Prompt
+2. Navigate to the project folder
+3. Run: bible_venv\Scripts\activate
+4. Run: streamlit run bible_study_app.py
+
+===============================================================================
+Need help? The app should work on any modern web browser once these steps 
+are completed. Make sure you have a stable internet connection for the initial
+library downloads.
+===============================================================================
