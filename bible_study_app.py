@@ -190,11 +190,31 @@ def load_css():
         text-align: center;
         cursor: pointer;
         transition: all 0.2s;
+        white-space: nowrap;
+        min-width: 3rem;
     }
     
     .chapter-button:hover {
         background: var(--secondary-color);
         color: white;
+    }
+    
+    /* Chapter selection buttons - prevent text wrapping */
+    .stButton > button {
+        white-space: nowrap !important;
+        min-width: 3rem !important;
+    }
+    
+    .stButton > button p {
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+    
+    /* Specifically target chapter buttons in columns */
+    div[data-testid="column"] .stButton > button {
+        white-space: nowrap !important;
+        min-width: 3rem !important;
     }
     
     .settings-panel {
