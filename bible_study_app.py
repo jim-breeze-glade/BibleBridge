@@ -230,11 +230,32 @@ def load_css():
     st.markdown(full_css, unsafe_allow_html=True)
 
 # Initialize session state
+def load_last_position():
+    """Load the last opened book and chapter from persistent storage"""
+    try:
+        with open('last_position.json', 'r') as f:
+            data = json.load(f)
+            return data.get('book', 'John'), data.get('chapter', 3)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return 'John', 3
+
+def save_last_position(book, chapter):
+    """Save the current book and chapter to persistent storage"""
+    try:
+        data = {'book': book, 'chapter': chapter}
+        with open('last_position.json', 'w') as f:
+            json.dump(data, f)
+    except Exception:
+        pass  # Silently fail if we can't save
+
 def init_session_state():
+    # Load last position from persistent storage
+    last_book, last_chapter = load_last_position()
+    
     if 'current_book' not in st.session_state:
-        st.session_state.current_book = 'Acts'
+        st.session_state.current_book = last_book
     if 'current_chapter' not in st.session_state:
-        st.session_state.current_chapter = 1
+        st.session_state.current_chapter = last_chapter
     if 'left_translation' not in st.session_state:
         st.session_state.left_translation = 'KJV'
     if 'right_translation' not in st.session_state:
@@ -523,6 +544,7 @@ def main():
             if st.button(book, key=f"book_{book}", use_container_width=True):
                 st.session_state.current_book = book
                 st.session_state.current_chapter = 1
+                save_last_position(book, 1)
                 st.rerun()
         
         st.divider()
@@ -543,6 +565,7 @@ def main():
                     with chapter_cols[col]:
                         if st.button(str(chapter_num), key=f"chapter_{chapter_num}", use_container_width=True):
                             st.session_state.current_chapter = chapter_num
+                            save_last_position(st.session_state.current_book, chapter_num)
                             st.rerun()
         
         st.divider()
