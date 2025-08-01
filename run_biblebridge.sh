@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Bible Study App Launcher
+# BibleBridge App Launcher
 # This script activates the virtual environment and launches the Streamlit app
 
 set -e  # Exit on any error
@@ -16,39 +16,39 @@ YELLOW='\033[1;33m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
-echo -e "${BLUE}📖 Bible Study Companion${NC}"
+echo -e "${BLUE}📖 BibleBridge: Bible Version Comparison${NC}"
 echo -e "${BLUE}========================${NC}"
 echo ""
 
 # Check if virtual environment exists
-if [ ! -d "bible_venv" ]; then
+if [ ! -d "biblebridge_venv" ]; then
     echo -e "${RED}❌ Virtual environment not found!${NC}"
     echo -e "${YELLOW}Creating virtual environment...${NC}"
-    python3 -m venv bible_venv
+    python3 -m venv biblebridge_venv
     echo -e "${GREEN}✅ Virtual environment created${NC}"
 fi
 
 # Check if requirements are installed
-if [ ! -f "bible_venv/lib/python*/site-packages/streamlit/__init__.py" ]; then
+if [ ! -f "biblebridge_venv/lib/python*/site-packages/streamlit/__init__.py" ]; then
     echo -e "${YELLOW}📦 Installing dependencies...${NC}"
-    source bible_venv/bin/activate
+    source biblebridge_venv/bin/activate
     pip install -r requirements.txt
     echo -e "${GREEN}✅ Dependencies installed${NC}"
 fi
 
 # Activate virtual environment
 echo -e "${YELLOW}🔄 Activating virtual environment...${NC}"
-source bible_venv/bin/activate
+source biblebridge_venv/bin/activate
 
 # Check if the Streamlit app file exists
-if [ ! -f "bible_study_app.py" ]; then
-    echo -e "${RED}❌ bible_study_app.py not found!${NC}"
+if [ ! -f "biblebridge_app.py" ]; then
+    echo -e "${RED}❌ biblebridge_app.py not found!${NC}"
     echo -e "${RED}Please ensure the app file is in the same directory as this script.${NC}"
     exit 1
 fi
 
 # Launch Streamlit app
-echo -e "${GREEN}🚀 Launching Bible Study App...${NC}"
+echo -e "${GREEN}🚀 Launching BibleBridge App...${NC}"
 echo -e "${BLUE}The app will open in your default browser.${NC}"
 echo -e "${BLUE}Press Ctrl+C to stop the server.${NC}"
 echo ""
@@ -70,7 +70,7 @@ fi
 echo -e "${BLUE}🌐 App will be available at http://localhost:$PORT${NC}"
 
 # Launch with optimized settings for Bible study
-streamlit run bible_study_app.py \
+streamlit run biblebridge_app.py \
     --server.headless true \
     --server.port $PORT \
     --server.address localhost \

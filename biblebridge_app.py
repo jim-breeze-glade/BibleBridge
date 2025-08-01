@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 import re
 import colorsys
+from pronunciation_utils import pronunciation_manager
 
 # Configure page
 st.set_page_config(
@@ -132,6 +133,65 @@ def load_css():
         margin-right: 0.5em;
     }
     
+    /* Biblical name pronunciation styles */
+    .biblical-name {
+        color: var(--primary-color);
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color: var(--primary-color);
+        text-decoration-thickness: 1px;
+        position: relative;
+        font-weight: 500;
+        transition: all 0.2s ease;
+    }
+    
+    .biblical-name:hover {
+        color: var(--secondary-color);
+        text-decoration-color: var(--secondary-color);
+        background-color: rgba(76, 175, 80, 0.1);
+        border-radius: 3px;
+        padding: 1px 2px;
+    }
+    
+    /* Tooltip styles */
+    .biblical-name::after {
+        content: attr(title);
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--card-background);
+        color: var(--text-color);
+        border: 1px solid var(--primary-color);
+        border-radius: 4px;
+        padding: 0.5rem;
+        font-size: 0.8em;
+        font-weight: normal;
+        white-space: nowrap;
+        z-index: 1000;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    
+    .biblical-name:hover::after {
+        opacity: 1;
+    }
+    
+    /* Audio button for pronunciation */
+    .biblical-name .audio-btn {
+        display: inline-block;
+        margin-left: 0.2em;
+        font-size: 0.7em;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+    }
+    
+    .biblical-name:hover .audio-btn {
+        opacity: 1;
+    }
+    
     
     /* Dark theme */
     .dark-theme {
@@ -228,6 +288,7 @@ def load_css():
     # Combine CSS parts
     full_css = f"<style>\n{red_letter_css}\n{text_brightness_css}\n{base_css}\n</style>"
     st.markdown(full_css, unsafe_allow_html=True)
+    
 
 # Initialize session state
 def load_last_position():
@@ -282,6 +343,14 @@ def init_session_state():
         st.session_state.rgb_wave_enabled = False
     if 'rgb_wave_speed' not in st.session_state:
         st.session_state.rgb_wave_speed = 2.0  # seconds per cycle
+    
+    # Pronunciation settings
+    if 'show_pronunciations' not in st.session_state:
+        st.session_state.show_pronunciations = True
+    if 'pronunciation_style' not in st.session_state:
+        st.session_state.pronunciation_style = 'phonetic'  # or 'ipa'
+    if 'tts_enabled' not in st.session_state:
+        st.session_state.tts_enabled = True
 
 # Helper functions
 def hsb_to_rgb(h, s, b):
@@ -385,7 +454,7 @@ BIBLE_BOOKS = {
 }
 
 # Available translations
-AVAILABLE_TRANSLATIONS = ['KJV', 'NLT', 'NIV']
+AVAILABLE_TRANSLATIONS = ['KJV', 'NLT', 'NIV', 'CSB']
 
 # Gospel books that should have red letter text
 GOSPEL_BOOKS = ['Matthew', 'Mark', 'Luke', 'John']
@@ -394,7 +463,10 @@ def load_translation_data(translation, book):
     """Load translation data from JSON files"""
     try:
         # Handle special book name mappings
-        book_filename = book.replace(' ', '').replace('Song of Songs', 'SongofSolomon')
+        if translation == 'CSB':
+            book_filename = book.replace(' ', '').replace('Song of Songs', 'SongofSongs')
+        else:
+            book_filename = book.replace(' ', '').replace('Song of Songs', 'SongofSolomon')
         file_path = f"translations/{translation}_json/{book_filename}.json"
         
         if os.path.exists(file_path):
@@ -497,6 +569,14 @@ def get_bible_text(book, chapter, translation):
                     # Add red letter formatting for Gospels
                     if book in GOSPEL_BOOKS and st.session_state.show_red_letters:
                         verse_text = add_red_letter_text(verse_text, book)
+                    
+                    # Add pronunciation markup for biblical names
+                    if st.session_state.show_pronunciations:
+                        verse_text = pronunciation_manager.detect_and_wrap_names(
+                            verse_text, 
+                            st.session_state.show_pronunciations,
+                            st.session_state.pronunciation_style
+                        )
                     
                     formatted_text += f'<span class="verse-number">{verse_num}</span> {verse_text}\n\n'
                 
@@ -633,6 +713,25 @@ def main():
                 
                 if st.button("Set Red Letter Color as Default", key="default_red_color"):
                     st.success("Red letter color set as default!")
+        
+        st.divider()
+        
+        # Pronunciation settings
+        st.subheader("🔊 Pronunciation Settings")
+        st.session_state.show_pronunciations = st.checkbox("Enable Name Pronunciations", st.session_state.show_pronunciations,
+                                                           help="Show clickable biblical names with pronunciation tooltips")
+        
+        if st.session_state.show_pronunciations:
+            st.session_state.pronunciation_style = st.selectbox("Pronunciation Style", 
+                                                              ["phonetic", "ipa"], 
+                                                              index=0 if st.session_state.pronunciation_style == "phonetic" else 1,
+                                                              help="Choose between phonetic spelling (AY-bruh-ham) or IPA notation (/ˈeɪbrəˌhæm/)")
+            
+            st.session_state.tts_enabled = st.checkbox("Text-to-Speech (Future Feature)", st.session_state.tts_enabled,
+                                                      help="Prepare TTS data for biblical names (click functionality coming soon)")
+            
+            if st.session_state.tts_enabled:
+                st.info("💡 TTS data is being prepared. Click functionality will be available in a future update!")
         
         # Force rerun when settings change to update CSS
         if st.button("🔄 Apply Changes", key="apply_changes"):

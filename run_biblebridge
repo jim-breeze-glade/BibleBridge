@@ -1,5 +1,5 @@
 @echo off
-REM Bible Study App Launcher
+REM BibleBridge App Launcher
 REM This script activates the virtual environment and launches the Streamlit app
 
 setlocal EnableDelayedExpansion
@@ -9,15 +9,15 @@ set "SCRIPT_DIR=%~dp0"
 cd /d "%SCRIPT_DIR%"
 
 REM Display header
-echo 📖 Bible Study Companion
+echo 📖 BibleBridge: Bible Version Comparison
 echo ========================
 echo.
 
 REM Check if virtual environment exists
-if not exist "bible_venv" (
+if not exist "biblebridge_venv" (
     echo ❌ Virtual environment not found!
     echo Creating virtual environment...
-    python -m venv bible_venv
+    python -m venv biblebridge_venv
     if errorlevel 1 (
         echo ❌ Failed to create virtual environment. Make sure Python is installed.
         pause
@@ -27,9 +27,9 @@ if not exist "bible_venv" (
 )
 
 REM Check if requirements are installed (simplified check for streamlit)
-if not exist "bible_venv\Lib\site-packages\streamlit" (
+if not exist "biblebridge_venv\Lib\site-packages\streamlit" (
     echo 📦 Installing dependencies...
-    call bible_venv\Scripts\activate.bat
+    call biblebridge_venv\Scripts\activate.bat
     pip install -r requirements.txt
     if errorlevel 1 (
         echo ❌ Failed to install dependencies.
@@ -41,18 +41,18 @@ if not exist "bible_venv\Lib\site-packages\streamlit" (
 
 REM Activate virtual environment
 echo 🔄 Activating virtual environment...
-call bible_venv\Scripts\activate.bat
+call biblebridge_venv\Scripts\activate.bat
 
 REM Check if the Streamlit app file exists
-if not exist "bible_study_app.py" (
-    echo ❌ bible_study_app.py not found!
+if not exist "biblebridge_app.py" (
+    echo ❌ biblebridge_app.py not found!
     echo Please ensure the app file is in the same directory as this script.
     pause
     exit /b 1
 )
 
 REM Launch Streamlit app
-echo 🚀 Launching Bible Study App...
+echo 🚀 Launching BibleBridge App...
 echo The app will open in your default browser.
 echo Press Ctrl+C to stop the server.
 echo.
@@ -75,7 +75,7 @@ if !errorlevel! == 0 (
 echo 🌐 App will be available at http://localhost:!PORT!
 
 REM Launch with optimized settings for Bible study
-streamlit run bible_study_app.py ^
+streamlit run biblebridge_app.py ^
     --server.headless true ^
     --server.port !PORT! ^
     --server.address localhost ^
