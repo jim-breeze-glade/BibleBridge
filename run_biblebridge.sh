@@ -25,20 +25,40 @@ if [ ! -d "biblebridge_venv" ]; then
     echo -e "${RED}❌ Virtual environment not found!${NC}"
     echo -e "${YELLOW}Creating virtual environment...${NC}"
     python3 -m venv biblebridge_venv
-    echo -e "${GREEN}✅ Virtual environment created${NC}"
+    if [ $? -eq 0 ]; then
+        echo -e "${GREEN}✅ Virtual environment created${NC}"
+    else
+        echo -e "${RED}❌ Failed to create virtual environment${NC}"
+        exit 1
+    fi
 fi
 
 # Check if requirements are installed
-if [ ! -f "biblebridge_venv/lib/python*/site-packages/streamlit/__init__.py" ]; then
+STREAMLIT_CHECK=$(find biblebridge_venv/lib/python*/site-packages -name "streamlit" -type d 2>/dev/null | head -1)
+if [ -z "$STREAMLIT_CHECK" ]; then
     echo -e "${YELLOW}📦 Installing dependencies...${NC}"
     source biblebridge_venv/bin/activate
-    pip install -r requirements.txt
-    echo -e "${GREEN}✅ Dependencies installed${NC}"
+    if [ $? -eq 0 ]; then
+        pip install -r requirements.txt
+        if [ $? -eq 0 ]; then
+            echo -e "${GREEN}✅ Dependencies installed${NC}"
+        else
+            echo -e "${RED}❌ Failed to install dependencies${NC}"
+            exit 1
+        fi
+    else
+        echo -e "${RED}❌ Failed to activate virtual environment${NC}"
+        exit 1
+    fi
 fi
 
 # Activate virtual environment
 echo -e "${YELLOW}🔄 Activating virtual environment...${NC}"
 source biblebridge_venv/bin/activate
+if [ $? -ne 0 ]; then
+    echo -e "${RED}❌ Failed to activate virtual environment${NC}"
+    exit 1
+fi
 
 # Check if the Streamlit app file exists
 if [ ! -f "biblebridge_app.py" ]; then
