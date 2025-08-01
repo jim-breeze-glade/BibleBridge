@@ -283,6 +283,48 @@ def load_css():
         border-radius: 8px;
         margin: 1rem 0;
     }
+    
+    /* Navigation buttons styling */
+    .nav-button {
+        padding: 0.75rem 1.5rem;
+        border: 2px solid var(--primary-color);
+        border-radius: 6px;
+        background: var(--card-background);
+        color: var(--primary-color);
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .nav-button:hover {
+        background: var(--primary-color);
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+    }
+    
+    .nav-button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .nav-button:disabled:hover {
+        background: var(--card-background);
+        color: var(--primary-color);
+    }
+    
+    /* Navigation section spacing */
+    .navigation-section {
+        margin: 1rem 0;
+        padding: 1rem;
+        border-radius: 8px;
+        background: rgba(76, 175, 80, 0.1);
+    }
     """
     
     # Combine CSS parts
@@ -587,6 +629,70 @@ def get_bible_text(book, chapter, translation):
     except Exception as e:
         return f"Error loading {translation} {book} chapter {chapter}: {e}"
 
+def get_next_chapter(book, chapter):
+    """Get the next chapter, handling book transitions"""
+    max_chapters = get_chapter_count(book)
+    
+    if chapter < max_chapters:
+        return book, chapter + 1
+    else:
+        # Move to next book
+        all_books = BIBLE_BOOKS['Old Testament'] + BIBLE_BOOKS['New Testament']
+        try:
+            current_index = all_books.index(book)
+            if current_index + 1 < len(all_books):
+                next_book = all_books[current_index + 1]
+                return next_book, 1
+        except ValueError:
+            pass
+    
+    return book, chapter  # No change if at end
+
+def get_previous_chapter(book, chapter):
+    """Get the previous chapter, handling book transitions"""
+    if chapter > 1:
+        return book, chapter - 1
+    else:
+        # Move to previous book
+        all_books = BIBLE_BOOKS['Old Testament'] + BIBLE_BOOKS['New Testament']
+        try:
+            current_index = all_books.index(book)
+            if current_index > 0:
+                prev_book = all_books[current_index - 1]
+                prev_chapters = get_chapter_count(prev_book)
+                return prev_book, prev_chapters
+        except ValueError:
+            pass
+    
+    return book, chapter  # No change if at beginning
+
+def render_navigation_buttons(position="top"):
+    """Render previous/next navigation buttons"""
+    nav_col1, nav_col2, nav_col3 = st.columns([1, 2, 1])
+    
+    with nav_col1:
+        prev_book, prev_chapter = get_previous_chapter(st.session_state.current_book, st.session_state.current_chapter)
+        prev_disabled = (prev_book == st.session_state.current_book and prev_chapter == st.session_state.current_chapter)
+        
+        if st.button("← Previous", key=f"prev_{position}", disabled=prev_disabled, use_container_width=True):
+            st.session_state.current_book = prev_book
+            st.session_state.current_chapter = prev_chapter
+            save_last_position(prev_book, prev_chapter)
+            st.rerun()
+    
+    with nav_col2:
+        st.markdown(f"<div style='text-align: center; padding: 0.5rem; font-weight: bold; color: var(--primary-color);'>{st.session_state.current_book} {st.session_state.current_chapter}</div>", unsafe_allow_html=True)
+    
+    with nav_col3:
+        next_book, next_chapter = get_next_chapter(st.session_state.current_book, st.session_state.current_chapter)
+        next_disabled = (next_book == st.session_state.current_book and next_chapter == st.session_state.current_chapter)
+        
+        if st.button("Next →", key=f"next_{position}", disabled=next_disabled, use_container_width=True):
+            st.session_state.current_book = next_book
+            st.session_state.current_chapter = next_chapter
+            save_last_position(next_book, next_chapter)
+            st.rerun()
+
 def render_title_bar():
     st.markdown(f"""
     <div class="main-header {st.session_state.theme}-theme">
@@ -613,23 +719,7 @@ def main():
     with st.sidebar:
         st.header("📚 Navigation")
         
-        # Book selection
-        st.subheader("Select Book")
-        testament_tab = st.radio("Testament", ["Old Testament", "New Testament"], 
-                                index=1 if st.session_state.current_book in BIBLE_BOOKS['New Testament'] else 0)
-        
-        # Book list
-        books = BIBLE_BOOKS[testament_tab]
-        for book in books:
-            if st.button(book, key=f"book_{book}", use_container_width=True):
-                st.session_state.current_book = book
-                st.session_state.current_chapter = 1
-                save_last_position(book, 1)
-                st.rerun()
-        
-        st.divider()
-        
-        # Chapter selection
+        # Chapter selection (moved to top for easier continuous reading)
         st.subheader("Select Chapter")
         max_chapters = get_chapter_count(st.session_state.current_book)
         
@@ -647,6 +737,22 @@ def main():
                             st.session_state.current_chapter = chapter_num
                             save_last_position(st.session_state.current_book, chapter_num)
                             st.rerun()
+        
+        st.divider()
+        
+        # Book selection (moved below chapters)
+        st.subheader("Select Book")
+        testament_tab = st.radio("Testament", ["Old Testament", "New Testament"], 
+                                index=1 if st.session_state.current_book in BIBLE_BOOKS['New Testament'] else 0)
+        
+        # Book list
+        books = BIBLE_BOOKS[testament_tab]
+        for book in books:
+            if st.button(book, key=f"book_{book}", use_container_width=True):
+                st.session_state.current_book = book
+                st.session_state.current_chapter = 1
+                save_last_position(book, 1)
+                st.rerun()
         
         st.divider()
         
@@ -737,6 +843,11 @@ def main():
         if st.button("🔄 Apply Changes", key="apply_changes"):
             st.rerun()
     
+    # Top navigation buttons
+    render_navigation_buttons("top")
+    
+    st.markdown("<br>", unsafe_allow_html=True)
+    
     # Main content columns
     col1, col2 = st.columns(2)
     
@@ -762,6 +873,11 @@ def main():
             {get_bible_text(st.session_state.current_book, st.session_state.current_chapter, st.session_state.right_translation)}
         </div>
         """, unsafe_allow_html=True)
+    
+    st.markdown("<br>", unsafe_allow_html=True)
+    
+    # Bottom navigation buttons
+    render_navigation_buttons("bottom")
     
     st.markdown('</div>', unsafe_allow_html=True)
 
