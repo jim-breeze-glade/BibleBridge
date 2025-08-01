@@ -20,9 +20,22 @@ echo -e "${BLUE}📖 BibleBridge: Bible Version Comparison${NC}"
 echo -e "${BLUE}========================${NC}"
 echo ""
 
-# Check if virtual environment exists
+# Check if virtual environment exists and is properly configured
+NEED_REBUILD=false
 if [ ! -d "biblebridge_venv" ]; then
     echo -e "${RED}❌ Virtual environment not found!${NC}"
+    NEED_REBUILD=true
+elif [ -f "biblebridge_venv/bin/streamlit" ]; then
+    # Check if streamlit has the correct path
+    STREAMLIT_SHEBANG=$(head -1 biblebridge_venv/bin/streamlit)
+    if [[ "$STREAMLIT_SHEBANG" != *"biblebridge_venv"* ]]; then
+        echo -e "${YELLOW}⚠️  Virtual environment has old paths, rebuilding...${NC}"
+        rm -rf biblebridge_venv
+        NEED_REBUILD=true
+    fi
+fi
+
+if [ "$NEED_REBUILD" = true ]; then
     echo -e "${YELLOW}Creating virtual environment...${NC}"
     python3 -m venv biblebridge_venv
     if [ $? -eq 0 ]; then
@@ -35,7 +48,7 @@ fi
 
 # Check if requirements are installed
 STREAMLIT_CHECK=$(find biblebridge_venv/lib/python*/site-packages -name "streamlit" -type d 2>/dev/null | head -1)
-if [ -z "$STREAMLIT_CHECK" ]; then
+if [ -z "$STREAMLIT_CHECK" ] || [ "$NEED_REBUILD" = true ]; then
     echo -e "${YELLOW}📦 Installing dependencies...${NC}"
     source biblebridge_venv/bin/activate
     if [ $? -eq 0 ]; then
@@ -89,8 +102,16 @@ fi
 
 echo -e "${BLUE}🌐 App will be available at http://localhost:$PORT${NC}"
 
+# Check if streamlit executable exists
+if [ ! -f "$SCRIPT_DIR/biblebridge_venv/bin/streamlit" ]; then
+    echo -e "${RED}❌ Streamlit executable not found in virtual environment${NC}"
+    echo -e "${YELLOW}Try deleting biblebridge_venv and running the script again${NC}"
+    exit 1
+fi
+
 # Launch with optimized settings for Bible study
-streamlit run biblebridge_app.py \
+# Use full path to streamlit to ensure it's found
+"$SCRIPT_DIR/biblebridge_venv/bin/streamlit" run biblebridge_app.py \
     --server.headless true \
     --server.port $PORT \
     --server.address localhost \
