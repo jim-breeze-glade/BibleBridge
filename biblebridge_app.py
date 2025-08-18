@@ -6,7 +6,8 @@ import os
 from pathlib import Path
 import re
 import colorsys
-from pronunciation_utils import pronunciation_manager
+from src.pronunciation.pronunciation_utils import pronunciation_manager
+from src.tts.web_audio_utils import create_web_audio_js, create_pronunciation_css
 
 # Configure page
 st.set_page_config(
@@ -327,16 +328,25 @@ def load_css():
     }
     """
     
+    # Add pronunciation CSS and Web Audio JavaScript
+    pronunciation_css = create_pronunciation_css()
+    web_audio_js = create_web_audio_js()
+    
     # Combine CSS parts
-    full_css = f"<style>\n{red_letter_css}\n{text_brightness_css}\n{base_css}\n</style>"
+    full_css = f"<style>\n{red_letter_css}\n{text_brightness_css}\n{base_css}\n{pronunciation_css}\n</style>"
+    full_js = f"<script>\n{web_audio_js}\n</script>"
+    
+    # Apply CSS and JavaScript
     st.markdown(full_css, unsafe_allow_html=True)
+    st.markdown(full_js, unsafe_allow_html=True)
     
 
 # Initialize session state
 def load_last_position():
     """Load the last opened book and chapter from persistent storage"""
     try:
-        with open('last_position.json', 'r') as f:
+        position_file = os.path.join(os.path.dirname(__file__), 'last_position.json')
+        with open(position_file, 'r') as f:
             data = json.load(f)
             return data.get('book', 'John'), data.get('chapter', 3)
     except (FileNotFoundError, json.JSONDecodeError):
@@ -346,7 +356,8 @@ def save_last_position(book, chapter):
     """Save the current book and chapter to persistent storage"""
     try:
         data = {'book': book, 'chapter': chapter}
-        with open('last_position.json', 'w') as f:
+        position_file = os.path.join(os.path.dirname(__file__), 'last_position.json')
+        with open(position_file, 'w') as f:
             json.dump(data, f)
     except Exception:
         pass  # Silently fail if we can't save
@@ -509,7 +520,7 @@ def load_translation_data(translation, book):
             book_filename = book.replace(' ', '').replace('Song of Songs', 'SongofSongs')
         else:
             book_filename = book.replace(' ', '').replace('Song of Songs', 'SongofSolomon')
-        file_path = f"translations/{translation}_json/{book_filename}.json"
+        file_path = os.path.join(os.path.dirname(__file__), "translations", f"{translation}_json", f"{book_filename}.json")
         
         if os.path.exists(file_path):
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -617,7 +628,8 @@ def get_bible_text(book, chapter, translation):
                         verse_text = pronunciation_manager.detect_and_wrap_names(
                             verse_text, 
                             st.session_state.show_pronunciations,
-                            st.session_state.pronunciation_style
+                            st.session_state.pronunciation_style,
+                            st.session_state.tts_enabled
                         )
                     
                     formatted_text += f'<span class="verse-number">{verse_num}</span> {verse_text}\n\n'
@@ -833,11 +845,12 @@ def main():
                                                               index=0 if st.session_state.pronunciation_style == "phonetic" else 1,
                                                               help="Choose between phonetic spelling (AY-bruh-ham) or IPA notation (/ˈeɪbrəˌhæm/)")
             
-            st.session_state.tts_enabled = st.checkbox("Text-to-Speech (Future Feature)", st.session_state.tts_enabled,
-                                                      help="Prepare TTS data for biblical names (click functionality coming soon)")
+            st.session_state.tts_enabled = st.checkbox("Text-to-Speech Audio", st.session_state.tts_enabled,
+                                                      help="Enable click-to-play audio pronunciations using neural TTS")
             
             if st.session_state.tts_enabled:
-                st.info("💡 TTS data is being prepared. Click functionality will be available in a future update!")
+                st.success("🎙️ TTS Server Ready! Click biblical names to hear pronunciations.")
+                st.caption("Make sure the TTS server is running on localhost:5001")
         
         # Force rerun when settings change to update CSS
         if st.button("🔄 Apply Changes", key="apply_changes"):
@@ -860,9 +873,12 @@ def main():
             <h3 style="text-align: center; margin-bottom: 1rem; color: var(--primary-color);">
                 {st.session_state.left_translation}
             </h3>
-            {get_bible_text(st.session_state.current_book, st.session_state.current_chapter, st.session_state.left_translation)}
         </div>
         """, unsafe_allow_html=True)
+        
+        # Display bible text separately to avoid HTML escaping in f-strings
+        left_text = get_bible_text(st.session_state.current_book, st.session_state.current_chapter, st.session_state.left_translation)
+        st.markdown(f'<div class="bible-text-content {theme_class}" style="font-size: {st.session_state.font_size}px; font-family: {st.session_state.font_family};">{left_text}</div>', unsafe_allow_html=True)
     
     with col2:
         st.markdown(f"""
@@ -870,9 +886,12 @@ def main():
             <h3 style="text-align: center; margin-bottom: 1rem; color: var(--primary-color);">
                 {st.session_state.right_translation}
             </h3>
-            {get_bible_text(st.session_state.current_book, st.session_state.current_chapter, st.session_state.right_translation)}
         </div>
         """, unsafe_allow_html=True)
+        
+        # Display bible text separately to avoid HTML escaping in f-strings
+        right_text = get_bible_text(st.session_state.current_book, st.session_state.current_chapter, st.session_state.right_translation)
+        st.markdown(f'<div class="bible-text-content {theme_class}" style="font-size: {st.session_state.font_size}px; font-family: {st.session_state.font_family};">{right_text}</div>', unsafe_allow_html=True)
     
     st.markdown("<br>", unsafe_allow_html=True)
     

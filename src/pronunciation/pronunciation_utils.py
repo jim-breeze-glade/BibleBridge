@@ -26,7 +26,7 @@ class PronunciationManager:
     def load_pronunciations(self):
         """Load pronunciation data from JSON file"""
         try:
-            pronunciation_file = os.path.join(os.path.dirname(__file__), 'pronunciations', 'biblical_names.json')
+            pronunciation_file = os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'pronunciations', 'biblical_names.json')
             with open(pronunciation_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 # Combine names and places into single dictionary
@@ -57,7 +57,7 @@ class PronunciationManager:
         return self.pronunciations.get(name)
     
     def detect_and_wrap_names(self, text: str, show_pronunciations: bool = True, 
-                            pronunciation_style: str = "phonetic") -> str:
+                            pronunciation_style: str = "phonetic", tts_enabled: bool = False) -> str:
         """
         Detect biblical names in text and wrap them with pronunciation markup
         
@@ -94,7 +94,7 @@ class PronunciationManager:
                     pronunciation_data = self.get_pronunciation(name)
                     if pronunciation_data:
                         wrapped_name = self.create_pronunciation_span(
-                            matched_text, name, pronunciation_data, pronunciation_style
+                            matched_text, name, pronunciation_data, pronunciation_style, tts_enabled
                         )
                         processed_text = processed_text[:start] + wrapped_name + processed_text[end:]
                         replacements.append((start, start + len(wrapped_name)))
@@ -102,7 +102,7 @@ class PronunciationManager:
         return processed_text
     
     def create_pronunciation_span(self, matched_text: str, canonical_name: str, 
-                                pronunciation_data: Dict, style: str = "phonetic") -> str:
+                                pronunciation_data: Dict, style: str = "phonetic", tts_enabled: bool = False) -> str:
         """
         Create HTML span with pronunciation data
         
@@ -122,10 +122,10 @@ class PronunciationManager:
         display_pronunciation = phonetic if style == "phonetic" else ipa
         
         # Create data attributes for both styles
-        data_attrs = f'data-name="{canonical_name}" data-phonetic="{phonetic}" data-ipa="{ipa}"'
+        phoneme = pronunciation_data.get('phoneme', '')
+        data_attrs = f'data-name="{canonical_name}" data-phonetic="{phonetic}" data-ipa="{ipa}" data-phoneme="{phoneme}"'
         
-        # Add TTS data if enabled (for future enhancement)
-        tts_enabled = getattr(st.session_state, 'tts_enabled', False)
+        # Add TTS data if enabled
         if tts_enabled:
             tts_text = self.get_tts_text(canonical_name, style)
             data_attrs += f' data-tts-text="{tts_text}"'
@@ -139,7 +139,7 @@ class PronunciationManager:
         
         Args:
             name: The biblical name
-            style: "phonetic" or "ipa"
+            style: "phonetic", "ipa", or "phoneme"
         
         Returns:
             Text suitable for TTS, defaulting to original name if no data
@@ -147,6 +147,10 @@ class PronunciationManager:
         pronunciation_data = self.get_pronunciation(name)
         if not pronunciation_data:
             return name
+        
+        # Use pre-processed phoneme if available (best for TTS)
+        if 'phoneme' in pronunciation_data:
+            return pronunciation_data['phoneme']
         
         if style == "phonetic":
             # Convert phonetic notation to more TTS-friendly format

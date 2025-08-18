@@ -1,0 +1,3268 @@
+{
+  "names": {
+    "Aaron": {
+      "phonetic": "AIR-un",
+      "ipa": "/ˈɛərən/",
+      "phoneme": "air un"
+    },
+    "Abel": {
+      "phonetic": "AY-bul",
+      "ipa": "/ˈeɪbəl/",
+      "phoneme": "aee bul"
+    },
+    "Abigail": {
+      "phonetic": "AB-ih-gayl",
+      "ipa": "/ˈæbɪˌɡeɪl/",
+      "phoneme": "ab ih gaeel"
+    },
+    "Abimelech": {
+      "phonetic": "uh-BIM-uh-lek",
+      "phoneme": "uh bim uh lek",
+      "source": "bible_blender"
+    },
+    "Abraham": {
+      "phonetic": "AY-bruh-ham",
+      "ipa": "/ˈeɪbrəˌhæm/",
+      "phoneme": "aee bruh ham"
+    },
+    "Absalom": {
+      "phonetic": "AB-suh-luhm",
+      "phoneme": "ab suh luhm",
+      "source": "bible_blender"
+    },
+    "Adam": {
+      "phonetic": "AD-um",
+      "ipa": "/ˈædəm/",
+      "phoneme": "ad um"
+    },
+    "Ahab": {
+      "phonetic": "AY-hab",
+      "ipa": "/ˈeɪhæb/",
+      "phoneme": "aee hab"
+    },
+    "Ahasuerus": {
+      "phonetic": "uh-haz-yoo-EE-rus",
+      "ipa": "/əˌhæzjuˈɪrəs/",
+      "phoneme": "uh haz eeoo ee rus"
+    },
+    "Ammon": {
+      "phonetic": "AM-un",
+      "ipa": "/ˈæmən/",
+      "phoneme": "am un"
+    },
+    "Amos": {
+      "phonetic": "AY-mus",
+      "ipa": "/ˈeɪməs/",
+      "phoneme": "aee mus"
+    },
+    "Andrew": {
+      "phonetic": "AN-droo",
+      "ipa": "/ˈændru/",
+      "phoneme": "an droo"
+    },
+    "Anna": {
+      "phonetic": "AN-uh",
+      "ipa": "/ˈænə/",
+      "phoneme": "an uh"
+    },
+    "Aram": {
+      "phonetic": "AHR-uhm",
+      "phoneme": "ahr uhm",
+      "source": "bible_blender"
+    },
+    "Asher": {
+      "phonetic": "ASH-ur",
+      "ipa": "/ˈæʃər/",
+      "phoneme": "ash ur"
+    },
+    "Baal": {
+      "phonetic": "BAY-uhl",
+      "phoneme": "bay uhl",
+      "source": "bible_blender"
+    },
+    "Babylon": {
+      "phonetic": "BAB-ih-lon",
+      "ipa": "/ˈbæbɪˌlɑn/",
+      "phoneme": "bab ih lon"
+    },
+    "Balaam": {
+      "phonetic": "BAY-lum",
+      "ipa": "/ˈbeɪləm/",
+      "phoneme": "baee lum"
+    },
+    "Barabbas": {
+      "phonetic": "buh-RAB-uhs",
+      "phoneme": "buh rab uhs",
+      "source": "bible_blender"
+    },
+    "Barnabas": {
+      "phonetic": "BAR-nuh-bus",
+      "ipa": "/ˈbɑrnəbəs/",
+      "phoneme": "bar nuh bus"
+    },
+    "Bartholomew": {
+      "phonetic": "bar-TH-ALL-o-mew",
+      "phoneme": "bar th all o mew",
+      "source": "bible_blender"
+    },
+    "Bathsheba": {
+      "phonetic": "bath-SHEE-buh",
+      "ipa": "/bæθˈʃibə/",
+      "phoneme": "bath shee buh"
+    },
+    "Benjamin": {
+      "phonetic": "BEN-juh-min",
+      "ipa": "/ˈbɛndʒəmɪn/",
+      "phoneme": "ben juh min"
+    },
+    "Bethany": {
+      "phonetic": "BETH-uh-nee",
+      "ipa": "/ˈbɛθəni/",
+      "phoneme": "beth uh nee"
+    },
+    "Bethel": {
+      "phonetic": "BETH-ul",
+      "ipa": "/ˈbɛθəl/",
+      "phoneme": "beth ul"
+    },
+    "Bethlehem": {
+      "phonetic": "BETH-lih-hem",
+      "ipa": "/ˈbɛθlɪˌhɛm/",
+      "phoneme": "beth lih hem"
+    },
+    "Boaz": {
+      "phonetic": "BOH-az",
+      "ipa": "/ˈboʊæz/",
+      "phoneme": "boh az"
+    },
+    "Cain": {
+      "phonetic": "KAYN",
+      "ipa": "/keɪn/",
+      "phoneme": "kaeen"
+    },
+    "Cainan": {
+      "phonetic": "KAY-nun",
+      "ipa": "/ˈkeɪnən/",
+      "phoneme": "kaee nun"
+    },
+    "Canaan": {
+      "phonetic": "KAY-nuhn",
+      "phoneme": "kay nuhn",
+      "source": "bible_blender"
+    },
+    "Cephas": {
+      "phonetic": "SEE-phus",
+      "phoneme": "see phus",
+      "source": "bible_blender"
+    },
+    "Chilion": {
+      "phonetic": "KIL-ee-on",
+      "ipa": "/ˈkɪliˌɑn/",
+      "phoneme": "kil ee on"
+    },
+    "Cornelius": {
+      "phonetic": "kor-NEE-lee-us",
+      "ipa": "/kɔrˈniliəs/",
+      "phoneme": "kor nee lee us"
+    },
+    "Cyrus": {
+      "phonetic": "SY-rus",
+      "ipa": "/ˈsaɪrəs/",
+      "phoneme": "see rus"
+    },
+    "Damascus": {
+      "phonetic": "duh-MAS-kus",
+      "ipa": "/dəˈmæskəs/",
+      "phoneme": "duh mas kus"
+    },
+    "Dan": {
+      "phonetic": "DAN",
+      "ipa": "/dæn/",
+      "phoneme": "dan"
+    },
+    "Daniel": {
+      "phonetic": "DAN-yul",
+      "ipa": "/ˈdænjəl/",
+      "phoneme": "dan eeul"
+    },
+    "David": {
+      "phonetic": "DAY-vid",
+      "ipa": "/ˈdeɪvɪd/",
+      "phoneme": "daee vid"
+    },
+    "Deborah": {
+      "phonetic": "DEB-ur-uh",
+      "ipa": "/ˈdɛbərə/",
+      "phoneme": "deb ur uh"
+    },
+    "Delilah": {
+      "phonetic": "dih-LY-luh",
+      "ipa": "/dɪˈlaɪlə/",
+      "phoneme": "dih lee luh"
+    },
+    "Eden": {
+      "phonetic": "EE-den",
+      "ipa": "/ˈidən/",
+      "phoneme": "ee den"
+    },
+    "Egypt": {
+      "phonetic": "EE-jipt",
+      "ipa": "/ˈidʒɪpt/",
+      "phoneme": "ee jipt"
+    },
+    "Eli": {
+      "phonetic": "EE-ly",
+      "ipa": "/ˈilaɪ/",
+      "phoneme": "ee lee"
+    },
+    "Elijah": {
+      "phonetic": "ih-LY-juh",
+      "ipa": "/ɪˈlaɪdʒə/",
+      "phoneme": "ih lee juh"
+    },
+    "Elimelech": {
+      "phonetic": "ih-LIM-uh-lek",
+      "phoneme": "ih lim uh lek",
+      "source": "bible_blender"
+    },
+    "Elisha": {
+      "phonetic": "ih-LY-shuh",
+      "ipa": "/ɪˈlaɪʃə/",
+      "phoneme": "ih lee shuh"
+    },
+    "Elizabeth": {
+      "phonetic": "ih-LIZ-uh-beth",
+      "ipa": "/ɪˈlɪzəbəθ/",
+      "phoneme": "ih liz uh beth"
+    },
+    "Emmanuel": {
+      "phonetic": "ih-MAN-yoo-ul",
+      "ipa": "/ɪˈmænjuəl/",
+      "phoneme": "ih man eeoo ul"
+    },
+    "Enoch": {
+      "phonetic": "EE-nahk",
+      "phoneme": "ee nahk",
+      "source": "bible_blender"
+    },
+    "Ephraim": {
+      "phonetic": "EE-free-uhm",
+      "phoneme": "ee free uhm",
+      "source": "bible_blender"
+    },
+    "Esau": {
+      "phonetic": "EE-saw",
+      "phoneme": "ee saw",
+      "source": "bible_blender"
+    },
+    "Esther": {
+      "phonetic": "ES-tuhr",
+      "phoneme": "es tuhr",
+      "source": "bible_blender"
+    },
+    "Euphrates": {
+      "phonetic": "yoo-FRAY-teez",
+      "ipa": "/juˈfreɪtiz/",
+      "phoneme": "eeoo fraee teez"
+    },
+    "Eve": {
+      "phonetic": "EEV",
+      "ipa": "/iv/",
+      "phoneme": "eev"
+    },
+    "Ezekiel": {
+      "phonetic": "ih-ZEE-kee-uhl",
+      "phoneme": "ih zee kee uhl",
+      "source": "bible_blender"
+    },
+    "Ezra": {
+      "phonetic": "EZ-ruh",
+      "phoneme": "ez ruh",
+      "source": "bible_blender"
+    },
+    "Gabriel": {
+      "phonetic": "GAY-bree-ul",
+      "ipa": "/ˈɡeɪbriəl/",
+      "phoneme": "gaee bree ul"
+    },
+    "Gad": {
+      "phonetic": "GAD",
+      "ipa": "/ɡæd/",
+      "phoneme": "gad"
+    },
+    "Galilee": {
+      "phonetic": "GAL-ih-lee",
+      "ipa": "/ˈɡæləli/",
+      "phoneme": "gal ih lee"
+    },
+    "Gethsemane": {
+      "phonetic": "geth-SEM-uh-nee",
+      "ipa": "/ɡɛθˈsɛməni/",
+      "phoneme": "geth sem uh nee"
+    },
+    "Gideon": {
+      "phonetic": "GID-ee-un",
+      "ipa": "/ˈɡɪdiən/",
+      "phoneme": "gid ee un"
+    },
+    "Goliath": {
+      "phonetic": "guh-LY-uth",
+      "ipa": "/ɡəˈlaɪəθ/",
+      "phoneme": "guh lee uth"
+    },
+    "Habakkuk": {
+      "phonetic": "huh-BAK-uk",
+      "ipa": "/həˈbækək/",
+      "phoneme": "huh bak uk"
+    },
+    "Hagar": {
+      "phonetic": "HAY-gahr",
+      "phoneme": "hay gahr",
+      "source": "bible_blender"
+    },
+    "Haggai": {
+      "phonetic": "HAD-eye",
+      "phoneme": "had eye",
+      "source": "bible_blender"
+    },
+    "Ham": {
+      "phonetic": "HAM",
+      "ipa": "/hæm/",
+      "phoneme": "ham"
+    },
+    "Hannah": {
+      "phonetic": "HAN-uh",
+      "ipa": "/ˈhænə/",
+      "phoneme": "han uh"
+    },
+    "Herod": {
+      "phonetic": "HER-uhd",
+      "phoneme": "her uhd",
+      "source": "bible_blender"
+    },
+    "Hezekiah": {
+      "phonetic": "hez-uh-KIGH-uh",
+      "phoneme": "hez uh kigh uh",
+      "source": "bible_blender"
+    },
+    "Hosea": {
+      "phonetic": "hoh-SEE-uh",
+      "phoneme": "hoh see uh",
+      "source": "bible_blender"
+    },
+    "Isaac": {
+      "phonetic": "Y-zuk",
+      "ipa": "/ˈaɪzək/",
+      "phoneme": "ee zuk"
+    },
+    "Isaiah": {
+      "phonetic": "y-ZAY-uh",
+      "ipa": "/aɪˈzeɪə/",
+      "phoneme": "ee zaee uh"
+    },
+    "Ishmael": {
+      "phonetic": "ISH-may-uhl",
+      "phoneme": "ish may uhl",
+      "source": "bible_blender"
+    },
+    "Israel": {
+      "phonetic": "IZ-ray-ul",
+      "ipa": "/ˈɪzreɪəl/",
+      "phoneme": "iz raee ul"
+    },
+    "Issachar": {
+      "phonetic": "IS-uh-kar",
+      "ipa": "/ˈɪsəkər/",
+      "phoneme": "is uh kar"
+    },
+    "Jacob": {
+      "phonetic": "JAY-kub",
+      "ipa": "/ˈdʒeɪkəb/",
+      "phoneme": "jaee kub"
+    },
+    "Japheth": {
+      "phonetic": "JAY-feth",
+      "phoneme": "jay feth",
+      "source": "bible_blender"
+    },
+    "Jared": {
+      "phonetic": "JAIR-ud",
+      "ipa": "/ˈdʒɛrəd/",
+      "phoneme": "jair ud"
+    },
+    "Jehovah": {
+      "phonetic": "jih-HOH-vuh",
+      "ipa": "/dʒɪˈhoʊvə/",
+      "phoneme": "jih hoh vuh"
+    },
+    "Jeremiah": {
+      "phonetic": "jer-uh-MY-uh",
+      "ipa": "/ˌdʒɛrəˈmaɪə/",
+      "phoneme": "jer uh mee uh"
+    },
+    "Jericho": {
+      "phonetic": "JAIR-ih-koh",
+      "ipa": "/ˈdʒɛrɪˌkoʊ/",
+      "phoneme": "jair ih koh"
+    },
+    "Jerusalem": {
+      "phonetic": "jih-ROO-suh-lum",
+      "ipa": "/dʒɪˈrusələm/",
+      "phoneme": "jih roo suh lum"
+    },
+    "Jesse": {
+      "phonetic": "JES-ee",
+      "ipa": "/ˈdʒɛsi/",
+      "phoneme": "jes ee"
+    },
+    "Jesus": {
+      "phonetic": "JEE-zus",
+      "ipa": "/ˈdʒizəs/",
+      "phoneme": "jee zus"
+    },
+    "Jethro": {
+      "phonetic": "JETH-roh",
+      "ipa": "/ˈdʒɛθroʊ/",
+      "phoneme": "jeth roh"
+    },
+    "Jezebel": {
+      "phonetic": "JEZ-uh-bel",
+      "ipa": "/ˈdʒɛzəbəl/",
+      "phoneme": "jez uh bel"
+    },
+    "Joab": {
+      "phonetic": "JOH-ab",
+      "phoneme": "joh ab",
+      "source": "bible_blender"
+    },
+    "Job": {
+      "phonetic": "JOHB or JOE-b",
+      "phoneme": "johb or joe b",
+      "source": "bible_blender"
+    },
+    "Joel": {
+      "phonetic": "JOH-ul",
+      "ipa": "/ˈdʒoʊəl/",
+      "phoneme": "joh ul"
+    },
+    "John": {
+      "phonetic": "JON",
+      "ipa": "/dʒɑn/",
+      "phoneme": "jon"
+    },
+    "Jonah": {
+      "phonetic": "JOH-nuh",
+      "ipa": "/ˈdʒoʊnə/",
+      "phoneme": "joh nuh"
+    },
+    "Jonathan": {
+      "phonetic": "JON-uh-thun",
+      "ipa": "/ˈdʒɑnəθən/",
+      "phoneme": "jon uh thun"
+    },
+    "Jordan": {
+      "phonetic": "JOR-dun",
+      "ipa": "/ˈdʒɔrdən/",
+      "phoneme": "jor dun"
+    },
+    "Joseph": {
+      "phonetic": "JOH-zef",
+      "ipa": "/ˈdʒoʊzəf/",
+      "phoneme": "joh zef"
+    },
+    "Joshua": {
+      "phonetic": "JOSH-oo-uh",
+      "ipa": "/ˈdʒɑʃuə/",
+      "phoneme": "josh oo uh"
+    },
+    "Josiah": {
+      "phonetic": "joh-SIE-us",
+      "phoneme": "joh sie us",
+      "source": "bible_blender"
+    },
+    "Judah": {
+      "phonetic": "JOO-duh",
+      "ipa": "/ˈdʒudə/",
+      "phoneme": "joo duh"
+    },
+    "Judas": {
+      "phonetic": "JEW-duhs",
+      "phoneme": "jew duhs",
+      "source": "bible_blender"
+    },
+    "Laban": {
+      "phonetic": "LAY-ban",
+      "phoneme": "lay ban",
+      "source": "bible_blender"
+    },
+    "Lamech": {
+      "phonetic": "LAY-mek",
+      "ipa": "/ˈleɪmək/",
+      "phoneme": "laee mek"
+    },
+    "Lazarus": {
+      "phonetic": "LAZ-uh-rus",
+      "ipa": "/ˈlæzərəs/",
+      "phoneme": "laz uh rus"
+    },
+    "Leah": {
+      "phonetic": "LEE-uh",
+      "ipa": "/ˈliə/",
+      "phoneme": "lee uh"
+    },
+    "Levi": {
+      "phonetic": "LEE-vy",
+      "ipa": "/ˈlivaɪ/",
+      "phoneme": "lee vee"
+    },
+    "Lot": {
+      "phonetic": "LOT",
+      "ipa": "/lɑt/",
+      "phoneme": "lot"
+    },
+    "Luke": {
+      "phonetic": "LOOK",
+      "ipa": "/luk/",
+      "phoneme": "look"
+    },
+    "Lydia": {
+      "phonetic": "LIH-dee-uh",
+      "phoneme": "lih dee uh",
+      "source": "bible_blender"
+    },
+    "Mahalaleel": {
+      "phonetic": "muh-hay-luh-LEE-uhl",
+      "phoneme": "muh hay luh lee uhl",
+      "source": "bible_blender"
+    },
+    "Mahlon": {
+      "phonetic": "MAH-lon",
+      "ipa": "/ˈmælən/",
+      "phoneme": "mah lon"
+    },
+    "Malachi": {
+      "phonetic": "MA-luh-kie",
+      "phoneme": "ma luh kie",
+      "source": "bible_blender"
+    },
+    "Manasseh": {
+      "phonetic": "muh-NA-suh",
+      "phoneme": "muh na suh",
+      "source": "bible_blender"
+    },
+    "Mark": {
+      "phonetic": "MARK",
+      "ipa": "/mɑrk/",
+      "phoneme": "mark"
+    },
+    "Martha": {
+      "phonetic": "MAR-thuh",
+      "ipa": "/ˈmɑrθə/",
+      "phoneme": "mar thuh"
+    },
+    "Mary": {
+      "phonetic": "MAIR-ee",
+      "ipa": "/ˈmɛri/",
+      "phoneme": "mair ee"
+    },
+    "Matthew": {
+      "phonetic": "MATH-yoo",
+      "ipa": "/ˈmæθju/",
+      "phoneme": "math eeoo"
+    },
+    "Melchizedek": {
+      "phonetic": "mel-KIH-zuh-dek",
+      "phoneme": "mel kih zuh dek",
+      "source": "bible_blender"
+    },
+    "Methuselah": {
+      "phonetic": "muh-THOO-zuh-luh",
+      "ipa": "/məˈθuzələ/",
+      "phoneme": "muh thoo zuh luh"
+    },
+    "Micah": {
+      "phonetic": "M-EYE-kuh",
+      "phoneme": "m eye kuh",
+      "source": "bible_blender"
+    },
+    "Michael": {
+      "phonetic": "MY-kul",
+      "ipa": "/ˈmaɪkəl/",
+      "phoneme": "mee kul"
+    },
+    "Miriam": {
+      "phonetic": "MIR-ee-uhm",
+      "phoneme": "mir ee uhm",
+      "source": "bible_blender"
+    },
+    "Moab": {
+      "phonetic": "MOH-ab",
+      "phoneme": "moh ab",
+      "source": "bible_blender"
+    },
+    "Moses": {
+      "phonetic": "MOH-ziz",
+      "ipa": "/ˈmoʊzɪz/",
+      "phoneme": "moh ziz"
+    },
+    "Naasson": {
+      "phonetic": "nah-AS-on",
+      "ipa": "/nəˈæsən/",
+      "phoneme": "nah as on"
+    },
+    "Nahum": {
+      "phonetic": "NAY-hum",
+      "ipa": "/ˈneɪhəm/",
+      "phoneme": "naee hum"
+    },
+    "Naomi": {
+      "phonetic": "nay-OH-mee",
+      "ipa": "/neɪˈoʊmi/",
+      "phoneme": "naee oh mee"
+    },
+    "Naphtali": {
+      "phonetic": "NAF-tuh-lie",
+      "phoneme": "naf tuh lie",
+      "source": "bible_blender"
+    },
+    "Nathan": {
+      "phonetic": "NAY-thun",
+      "ipa": "/ˈneɪθən/",
+      "phoneme": "naee thun"
+    },
+    "Nathanael": {
+      "phonetic": "nuh-THAN-ay-ul",
+      "ipa": "/nəˈθæneɪəl/",
+      "phoneme": "nuh than aee ul"
+    },
+    "Nazareth": {
+      "phonetic": "NAZ-uh-reth",
+      "ipa": "/ˈnæzərəθ/",
+      "phoneme": "naz uh reth"
+    },
+    "Nebuchadnezzar": {
+      "phonetic": "neb-ud-kuhd-NEZ-uhr",
+      "phoneme": "neb ud kuhd nez uhr",
+      "source": "bible_blender"
+    },
+    "Nehemiah": {
+      "phonetic": "nee-uh-MIE-uh",
+      "phoneme": "nee uh mie uh",
+      "source": "bible_blender"
+    },
+    "Nicodemus": {
+      "phonetic": "nik-uh-DEE-muhs",
+      "phoneme": "nik uh dee muhs",
+      "source": "bible_blender"
+    },
+    "Nineveh": {
+      "phonetic": "NIN-uh-vuh",
+      "ipa": "/ˈnɪnəvə/",
+      "phoneme": "nin uh vuh"
+    },
+    "Noah": {
+      "phonetic": "NOH-uh",
+      "ipa": "/ˈnoʊə/",
+      "phoneme": "noh uh"
+    },
+    "Obadiah": {
+      "phonetic": "oh-buh-DIE-uh",
+      "phoneme": "oh buh die uh",
+      "source": "bible_blender"
+    },
+    "Orpah": {
+      "phonetic": "OR-puh",
+      "ipa": "/ˈɔrpə/",
+      "phoneme": "or puh"
+    },
+    "Paul": {
+      "phonetic": "PAWL",
+      "ipa": "/pɔl/",
+      "phoneme": "pawl"
+    },
+    "Peter": {
+      "phonetic": "PEE-tur",
+      "ipa": "/ˈpitər/",
+      "phoneme": "pee tur"
+    },
+    "Pharaoh": {
+      "phonetic": "FAIR-oh",
+      "ipa": "/ˈfɛroʊ/",
+      "phoneme": "fair oh"
+    },
+    "Philip": {
+      "phonetic": "FIL-ip",
+      "phoneme": "fil ip",
+      "source": "bible_blender"
+    },
+    "Pontius": {
+      "phonetic": "PON-shus",
+      "ipa": "/ˈpɑnʃəs/",
+      "phoneme": "pon shus"
+    },
+    "Potiphar": {
+      "phonetic": "POT-uh-fahr",
+      "phoneme": "pot uh fahr",
+      "source": "bible_blender"
+    },
+    "Rachel": {
+      "phonetic": "RAY-chul",
+      "ipa": "/ˈreɪtʃəl/",
+      "phoneme": "raee chul"
+    },
+    "Rahab": {
+      "phonetic": "RAY-hab",
+      "phoneme": "ray hab",
+      "source": "bible_blender"
+    },
+    "Rebecca": {
+      "phonetic": "rih-BEK-uh",
+      "ipa": "/rɪˈbɛkə/",
+      "phoneme": "rih bek uh"
+    },
+    "Reuben": {
+      "phonetic": "ROO-ben",
+      "ipa": "/ˈrubən/",
+      "phoneme": "roo ben"
+    },
+    "Ruth": {
+      "phonetic": "ROOTH",
+      "ipa": "/ruθ/",
+      "phoneme": "rooth"
+    },
+    "Salmon": {
+      "phonetic": "SAL-mun",
+      "ipa": "/ˈsælmən/",
+      "phoneme": "sal mun"
+    },
+    "Samson": {
+      "phonetic": "SAM-sun",
+      "ipa": "/ˈsæmsən/",
+      "phoneme": "sam sun"
+    },
+    "Samuel": {
+      "phonetic": "SAM-yoo-ul",
+      "ipa": "/ˈsæmjuəl/",
+      "phoneme": "sam eeoo ul"
+    },
+    "Sarah": {
+      "phonetic": "SAIR-uh",
+      "ipa": "/ˈsɛrə/",
+      "phoneme": "sair uh"
+    },
+    "Saul": {
+      "phonetic": "SAWL",
+      "ipa": "/sɔl/",
+      "phoneme": "sawl"
+    },
+    "Seth": {
+      "phonetic": "SETH",
+      "ipa": "/sɛθ/",
+      "phoneme": "seth"
+    },
+    "Shem": {
+      "phonetic": "SHEM",
+      "ipa": "/ʃɛm/",
+      "phoneme": "shem"
+    },
+    "Silas": {
+      "phonetic": "SY-lus",
+      "ipa": "/ˈsaɪləs/",
+      "phoneme": "see lus"
+    },
+    "Simeon": {
+      "phonetic": "SIM-ee-un",
+      "ipa": "/ˈsɪmiən/",
+      "phoneme": "sim ee un"
+    },
+    "Simon": {
+      "phonetic": "SY-mun",
+      "ipa": "/ˈsaɪmən/",
+      "phoneme": "see mun"
+    },
+    "Solomon": {
+      "phonetic": "SOL-uh-mun",
+      "ipa": "/ˈsɑləmən/",
+      "phoneme": "sol uh mun"
+    },
+    "Stephen": {
+      "phonetic": "STEE-ven",
+      "ipa": "/ˈstivən/",
+      "phoneme": "stee ven"
+    },
+    "Tamar": {
+      "phonetic": "TAY-marh",
+      "phoneme": "tay marh",
+      "source": "bible_blender"
+    },
+    "Thomas": {
+      "phonetic": "TOM-us",
+      "ipa": "/ˈtɑməs/",
+      "phoneme": "tom us"
+    },
+    "Timothy": {
+      "phonetic": "TIM-uh-thee",
+      "ipa": "/ˈtɪməθi/",
+      "phoneme": "tim uh thee"
+    },
+    "Titus": {
+      "phonetic": "TY-tus",
+      "ipa": "/ˈtaɪtəs/",
+      "phoneme": "tee tus"
+    },
+    "Uriah": {
+      "phonetic": "yoo-rie-uh",
+      "phoneme": "yoo rie uh",
+      "source": "bible_blender"
+    },
+    "Zacharias": {
+      "phonetic": "zak-uh-RY-us",
+      "ipa": "/ˌzækəˈraɪəs/",
+      "phoneme": "zak uh ree us"
+    },
+    "Zebulun": {
+      "phonetic": "ZEB-yoo-lun",
+      "ipa": "/ˈzɛbjələn/",
+      "phoneme": "zeb eeoo lun"
+    },
+    "Zephaniah": {
+      "phonetic": "zef-uh-NY-uh",
+      "ipa": "/ˌzɛfəˈnaɪə/",
+      "phoneme": "zef uh nee uh"
+    },
+    "Zerubbabel": {
+      "phonetic": "zuh-RUB-uh-bul",
+      "ipa": "/zəˈrʌbəbəl/",
+      "phoneme": "zuh rub uh bul"
+    },
+    "Abaddon": {
+      "phonetic": "uh-BAD-uhn",
+      "phoneme": "uh bad uhn",
+      "source": "bible_blender"
+    },
+    "Abram": {
+      "phonetic": "AY-bruhm",
+      "phoneme": "ay bruhm",
+      "source": "bible_blender"
+    },
+    "Abu": {
+      "phonetic": "ah-BOO",
+      "phoneme": "ah boo",
+      "source": "bible_blender"
+    },
+    "Admah": {
+      "phonetic": "AD-muh",
+      "phoneme": "ad muh",
+      "source": "bible_blender"
+    },
+    "Aegean": {
+      "phonetic": "ih-JEE-uhn",
+      "phoneme": "ih jee uhn",
+      "source": "bible_blender"
+    },
+    "Agrippa": {
+      "phonetic": "uh-GRIP-uh",
+      "phoneme": "uh grip uh",
+      "source": "bible_blender"
+    },
+    "Ahimelech": {
+      "phonetic": "uh-HIM-uh-lek",
+      "phoneme": "uh him uh lek",
+      "source": "bible_blender"
+    },
+    "Alphaeus": {
+      "phonetic": "al-FEE-us",
+      "phoneme": "al fee us",
+      "source": "bible_blender"
+    },
+    "Amnon": {
+      "phonetic": "AM—non",
+      "phoneme": "am—non",
+      "source": "bible_blender"
+    },
+    "Antipas": {
+      "phonetic": "AN-tuh-puhs",
+      "phoneme": "an tuh puhs",
+      "source": "bible_blender"
+    },
+    "Arphaxed": {
+      "phonetic": "ahr-FAX-ad",
+      "phoneme": "ahr fax ad",
+      "source": "bible_blender"
+    },
+    "Arphaxad": {
+      "phonetic": "ahr-FAX-ad",
+      "phoneme": "ahr fax ad",
+      "source": "bible_blender"
+    },
+    "Arriyuk": {
+      "phonetic": "EHR-ih-ahk",
+      "phoneme": "ehr ih ahk",
+      "source": "bible_blender"
+    },
+    "Arioch": {
+      "phonetic": "EHR-ih-ahk",
+      "phoneme": "ehr ih ahk",
+      "source": "bible_blender"
+    },
+    "Asenath": {
+      "phonetic": "ASS-eh-nath",
+      "phoneme": "ass eh nath",
+      "source": "bible_blender"
+    },
+    "Ashteroth": {
+      "phonetic": "ASH-tuh-rahth",
+      "phoneme": "ash tuh rahth",
+      "source": "bible_blender"
+    },
+    "Athena": {
+      "phonetic": "uh-THEE-nuh",
+      "phoneme": "uh thee nuh",
+      "source": "bible_blender"
+    },
+    "Balak": {
+      "phonetic": "BAY-lak",
+      "phoneme": "bay lak",
+      "source": "bible_blender"
+    },
+    "Barachiah": {
+      "phonetic": "bair-uh-KEE-uh",
+      "phoneme": "bair uh kee uh",
+      "source": "bible_blender"
+    },
+    "Barak": {
+      "phonetic": "BAIR-uhk",
+      "phoneme": "bair uhk",
+      "source": "bible_blender"
+    },
+    "Basemath": {
+      "phonetic": "BAS-uh-math",
+      "phoneme": "bas uh math",
+      "source": "bible_blender"
+    },
+    "Bashan": {
+      "phonetic": "BAY-shan",
+      "phoneme": "bay shan",
+      "source": "bible_blender"
+    },
+    "Beelzebub": {
+      "phonetic": "bee-EL-zih-buhb",
+      "phoneme": "bee el zih buhb",
+      "source": "bible_blender"
+    },
+    "Bel": {
+      "phonetic": "BAYL",
+      "phoneme": "bayl",
+      "source": "bible_blender"
+    },
+    "Bela": {
+      "phonetic": "BEE-luh",
+      "phoneme": "bee luh",
+      "source": "bible_blender"
+    },
+    "Ben-Ammi": {
+      "phonetic": "ben_AM-eye",
+      "phoneme": "ben am eye",
+      "source": "bible_blender"
+    },
+    "Bera": {
+      "phonetic": "BEE-rub",
+      "phoneme": "bee rub",
+      "source": "bible_blender"
+    },
+    "Ceasar": {
+      "phonetic": "SEE-zuhr",
+      "phoneme": "see zuhr",
+      "source": "bible_blender"
+    },
+    "Caiaphas": {
+      "phonetic": "KAY-uh-fuhs",
+      "phoneme": "kay uh fuhs",
+      "source": "bible_blender"
+    },
+    "Cana": {
+      "phonetic": "KAY-nuh",
+      "phoneme": "kay nuh",
+      "source": "bible_blender"
+    },
+    "Carthage": {
+      "phonetic": "KAHR-thij",
+      "phoneme": "kahr thij",
+      "source": "bible_blender"
+    },
+    "Caspian": {
+      "phonetic": "KAS-pee-uhn",
+      "phoneme": "kas pee uhn",
+      "source": "bible_blender"
+    },
+    "Chaldean": {
+      "phonetic": "kal-DEE-uhn",
+      "phoneme": "kal dee uhn",
+      "source": "bible_blender"
+    },
+    "Cleopas": {
+      "phonetic": "KLEE-uh-puhs",
+      "phoneme": "klee uh puhs",
+      "source": "bible_blender"
+    },
+    "Cleophas": {
+      "phonetic": "KLEE—oh-fuhs",
+      "phoneme": "klee—oh fuhs",
+      "source": "bible_blender"
+    },
+    "Clopas": {
+      "phonetic": "KLOH-puhs",
+      "phoneme": "kloh puhs",
+      "source": "bible_blender"
+    },
+    "Colossians": {
+      "phonetic": "kuh-LOSH-shee-uhnz",
+      "phoneme": "kuh losh shee uhnz",
+      "source": "bible_blender"
+    },
+    "Crete": {
+      "phonetic": "KREET",
+      "phoneme": "kreet",
+      "source": "bible_blender"
+    },
+    "Darius": {
+      "phonetic": "duh-REE-uhs",
+      "phoneme": "duh ree uhs",
+      "source": "bible_blender"
+    },
+    "Deuteronomy": {
+      "phonetic": "doo-tuh-RON-uh-mee",
+      "phoneme": "doo tuh ron uh mee",
+      "source": "bible_blender"
+    },
+    "Ebenezer": {
+      "phonetic": "eb-uh-NEE-zuhr",
+      "phoneme": "eb uh nee zuhr",
+      "source": "bible_blender"
+    },
+    "Eber": {
+      "phonetic": "EE-buhr",
+      "phoneme": "ee buhr",
+      "source": "bible_blender"
+    },
+    "Ecclesiastes": {
+      "phonetic": "ih-KLEE-zee-ass-teez",
+      "phoneme": "ih klee zee ass teez",
+      "source": "bible_blender"
+    },
+    "Edessa": {
+      "phonetic": "ih-DEH-suh",
+      "phoneme": "ih deh suh",
+      "source": "bible_blender"
+    },
+    "Edom": {
+      "phonetic": "EE-duhm",
+      "phoneme": "ee duhm",
+      "source": "bible_blender"
+    },
+    "Edommite": {
+      "phonetic": "EE-duh-might",
+      "phoneme": "ee duh might",
+      "source": "bible_blender"
+    },
+    "Eisegesis": {
+      "phonetic": "EYE-suh-JEE-suhs",
+      "phoneme": "eye suh jee suhs",
+      "source": "bible_blender"
+    },
+    "Elamites": {
+      "phonetic": "EE-luh-mights",
+      "phoneme": "ee luh mights",
+      "source": "bible_blender"
+    },
+    "Ellasar": {
+      "phonetic": "el-LAY-sahr",
+      "phoneme": "el lay sahr",
+      "source": "bible_blender"
+    },
+    "Elohim": {
+      "phonetic": "el-oh-HEEM",
+      "phoneme": "el oh heem",
+      "source": "bible_blender"
+    },
+    "Enosh": {
+      "phonetic": "EE-nosh",
+      "phoneme": "ee nosh",
+      "source": "bible_blender"
+    },
+    "Ephesians": {
+      "phonetic": "ih-FEE-zhuhnz",
+      "phoneme": "ih fee zhuhnz",
+      "source": "bible_blender"
+    },
+    "Esdras": {
+      "phonetic": "EZ-druhs",
+      "phoneme": "ez druhs",
+      "source": "bible_blender"
+    },
+    "Eucharist": {
+      "phonetic": "YOO-kuh-ruhst",
+      "phoneme": "yoo kuh ruhst",
+      "source": "bible_blender"
+    },
+    "Exegesis": {
+      "phonetic": "ek-suh-JEE-suhs",
+      "phoneme": "ek suh jee suhs",
+      "source": "bible_blender"
+    },
+    "Exegetical": {
+      "phonetic": "ek-suh-JEH-tih-kuhl",
+      "phoneme": "ek suh jeh tih kuhl",
+      "source": "bible_blender"
+    },
+    "Famine Stela": {
+      "phonetic": "FAH-men STEE-luh",
+      "phoneme": "fah men stee luh",
+      "source": "bible_blender"
+    },
+    "Flavius": {
+      "phonetic": "FLAY-vee-uhs",
+      "phoneme": "flay vee uhs",
+      "source": "bible_blender"
+    },
+    "Fortunatus": {
+      "phonetic": "for-chuh-NAY-tuhs",
+      "phoneme": "for chuh nay tuhs",
+      "source": "bible_blender"
+    },
+    "Gaash": {
+      "phonetic": "GAY-ash",
+      "phoneme": "gay ash",
+      "source": "bible_blender"
+    },
+    "Gabbatha": {
+      "phonetic": "GAB-uh-thah",
+      "phoneme": "gab uh thah",
+      "source": "bible_blender"
+    },
+    "Gadara": {
+      "phonetic": "GAD-uh-ruh",
+      "phoneme": "gad uh ruh",
+      "source": "bible_blender"
+    },
+    "Gadarenes": {
+      "phonetic": "GAD-uh-reens",
+      "phoneme": "gad uh reens",
+      "source": "bible_blender"
+    },
+    "Galatia": {
+      "phonetic": "guh-LAY-shuh",
+      "phoneme": "guh lay shuh",
+      "source": "bible_blender"
+    },
+    "Galathians": {
+      "phonetic": "guh-LAY-shuns",
+      "phoneme": "guh lay shuns",
+      "source": "bible_blender"
+    },
+    "Galeed": {
+      "phonetic": "GAL-ee-ed",
+      "phoneme": "gal ee ed",
+      "source": "bible_blender"
+    },
+    "Gerar": {
+      "phonetic": "geh-RAHR",
+      "phoneme": "geh rahr",
+      "source": "bible_blender"
+    },
+    "Geshur": {
+      "phonetic": "GESH-uhr",
+      "phoneme": "gesh uhr",
+      "source": "bible_blender"
+    },
+    "Gezer": {
+      "phonetic": "GEE-zuhr",
+      "phoneme": "gee zuhr",
+      "source": "bible_blender"
+    },
+    "Gihon": {
+      "phonetic": "G-EYE-hon",
+      "phoneme": "g eye hon",
+      "source": "bible_blender"
+    },
+    "Gilead": {
+      "phonetic": "GIL-ee-uhd",
+      "phoneme": "gil ee uhd",
+      "source": "bible_blender"
+    },
+    "Gilgamesh": {
+      "phonetic": "GIL-guh-mesh",
+      "phoneme": "gil guh mesh",
+      "source": "bible_blender"
+    },
+    "Gnostic": {
+      "phonetic": "NAHS-tick",
+      "phoneme": "nahs tick",
+      "source": "bible_blender"
+    },
+    "Goiim": {
+      "phonetic": "GOY-im",
+      "phoneme": "goy im",
+      "source": "bible_blender"
+    },
+    "Hadad": {
+      "phonetic": "HAY-dad",
+      "phoneme": "hay dad",
+      "source": "bible_blender"
+    },
+    "Hamath": {
+      "phonetic": "HAY-math",
+      "phoneme": "hay math",
+      "source": "bible_blender"
+    },
+    "Hamor": {
+      "phonetic": "HAY-mor",
+      "phoneme": "hay mor",
+      "source": "bible_blender"
+    },
+    "Hanani": {
+      "phonetic": "huh-NAY-nigh",
+      "phoneme": "huh nay nigh",
+      "source": "bible_blender"
+    },
+    "Hananiah": {
+      "phonetic": "han-uh-NIGH-uh",
+      "phoneme": "han uh nigh uh",
+      "source": "bible_blender"
+    },
+    "Heretic": {
+      "phonetic": "HER-uh-tick",
+      "phoneme": "her uh tick",
+      "source": "bible_blender"
+    },
+    "Heretical": {
+      "phonetic": "huh-RE-tih-kuhl",
+      "phoneme": "huh re tih kuhl",
+      "source": "bible_blender"
+    },
+    "Hermes": {
+      "phonetic": "HURH-meez",
+      "phoneme": "hurh meez",
+      "source": "bible_blender"
+    },
+    "Hermon": {
+      "phonetic": "HUHR-much",
+      "phoneme": "huhr much",
+      "source": "bible_blender"
+    },
+    "Herodias": {
+      "phonetic": "hih-ROH-dee-uhs",
+      "phoneme": "hih roh dee uhs",
+      "source": "bible_blender"
+    },
+    "Herodotus": {
+      "phonetic": "hih-RAH-duh-tuhs",
+      "phoneme": "hih rah duh tuhs",
+      "source": "bible_blender"
+    },
+    "Hezron": {
+      "phonetic": "HEZ-ruhn",
+      "phoneme": "hez ruhn",
+      "source": "bible_blender"
+    },
+    "Hierapolis": {
+      "phonetic": "high-uh-RAHP-us-luhs",
+      "phoneme": "high uh rahp us luhs",
+      "source": "bible_blender"
+    },
+    "Hittite": {
+      "phonetic": "HI-tight",
+      "phoneme": "hi tight",
+      "source": "bible_blender"
+    },
+    "Hobab": {
+      "phonetic": "HOH-bab",
+      "phoneme": "hoh bab",
+      "source": "bible_blender"
+    },
+    "Hori": {
+      "phonetic": "HOR-eye",
+      "phoneme": "hor eye",
+      "source": "bible_blender"
+    },
+    "Idumea": {
+      "phonetic": "ID-yoo-MEE-uh",
+      "phoneme": "id yoo mee uh",
+      "source": "bible_blender"
+    },
+    "Ignatius": {
+      "phonetic": "ig-NAY-shuhs",
+      "phoneme": "ig nay shuhs",
+      "source": "bible_blender"
+    },
+    "Imhotep": {
+      "phonetic": "em-HOH-tep",
+      "phoneme": "em hoh tep",
+      "source": "bible_blender"
+    },
+    "Iscariot": {
+      "phonetic": "iss-CAR-ee-ot",
+      "phoneme": "iss car ee ot",
+      "source": "bible_blender"
+    },
+    "Jabal": {
+      "phonetic": "JAY-buhl",
+      "phoneme": "jay buhl",
+      "source": "bible_blender"
+    },
+    "Jairus": {
+      "phonetic": "JAY-uh-ruhs",
+      "phoneme": "jay uh ruhs",
+      "source": "bible_blender"
+    },
+    "Javan": {
+      "phonetic": "JAY-van",
+      "phoneme": "jay van",
+      "source": "bible_blender"
+    },
+    "Jebusite": {
+      "phonetic": "JEB-yoo-sight",
+      "phoneme": "jeb yoo sight",
+      "source": "bible_blender"
+    },
+    "Jehoash": {
+      "phonetic": "juhHOH-ash",
+      "phoneme": "juhhoh ash",
+      "source": "bible_blender"
+    },
+    "Jehoiachin": {
+      "phonetic": "juh-HOI-uh-kin",
+      "phoneme": "juh hoi uh kin",
+      "source": "bible_blender"
+    },
+    "Josephus": {
+      "phonetic": "Joh-SEE-fuhs",
+      "phoneme": "joh see fuhs",
+      "source": "bible_blender"
+    },
+    "Judaism": {
+      "phonetic": "JOO-duh-iz-uhm",
+      "phoneme": "joo duh iz uhm",
+      "source": "bible_blender"
+    },
+    "Kadesh": {
+      "phonetic": "KAY-desh",
+      "phoneme": "kay desh",
+      "source": "bible_blender"
+    },
+    "Karnalm": {
+      "phonetic": "kahr-NAY-lim",
+      "phoneme": "kahr nay lim",
+      "source": "bible_blender"
+    },
+    "Kedar": {
+      "phonetic": "KEE-dahr",
+      "phoneme": "kee dahr",
+      "source": "bible_blender"
+    },
+    "Kedesh": {
+      "phonetic": "KEY-desh",
+      "phoneme": "key desh",
+      "source": "bible_blender"
+    },
+    "Kedorlaomer": {
+      "phonetic": "KED-awr-LAY-oh-muhr",
+      "phoneme": "ked awr lay oh muhr",
+      "source": "bible_blender"
+    },
+    "Kerak": {
+      "phonetic": "KEHR-ahk",
+      "phoneme": "kehr ahk",
+      "source": "bible_blender"
+    },
+    "Keturah": {
+      "phonetic": "kih-TOO-rah",
+      "phoneme": "kih too rah",
+      "source": "bible_blender"
+    },
+    "Keziah": {
+      "phonetic": "kih-Z-EYE-uh",
+      "phoneme": "kih z eye uh",
+      "source": "bible_blender"
+    },
+    "Kibrothhattaavah": {
+      "phonetic": "kib-roth-huh-TAY-uh-vuh",
+      "phoneme": "kib roth huh tay uh vuh",
+      "source": "bible_blender"
+    },
+    "Kidron": {
+      "phonetic": "KID-ruhn",
+      "phoneme": "kid ruhn",
+      "source": "bible_blender"
+    },
+    "Kimah": {
+      "phonetic": "K-EYE-mah",
+      "phoneme": "k eye mah",
+      "source": "bible_blender"
+    },
+    "Kisoh": {
+      "phonetic": "K-EYE-shon",
+      "phoneme": "k eye shon",
+      "source": "bible_blender"
+    },
+    "Kohath": {
+      "phonetic": "KOH-hath",
+      "phoneme": "koh hath",
+      "source": "bible_blender"
+    },
+    "Kyrios": {
+      "phonetic": "KOO-ree-os",
+      "phoneme": "koo ree os",
+      "source": "bible_blender"
+    },
+    "Labdanum": {
+      "phonetic": "LAB-duh-nuhm",
+      "phoneme": "lab duh nuhm",
+      "source": "bible_blender"
+    },
+    "Laodicea": {
+      "phonetic": "lay-oh-duh-SEE-uh",
+      "phoneme": "lay oh duh see uh",
+      "source": "bible_blender"
+    },
+    "Lapis Lazuli": {
+      "phonetic": "lap-uhs-LA-zuh-lee",
+      "phoneme": "lap uhs la zuh lee",
+      "source": "bible_blender"
+    },
+    "Lascivious": {
+      "phonetic": "luh-SI-vee-uhs",
+      "phoneme": "luh si vee uhs",
+      "source": "bible_blender"
+    },
+    "Lasea": {
+      "phonetic": "luh-SEE-uh",
+      "phoneme": "luh see uh",
+      "source": "bible_blender"
+    },
+    "Lasha": {
+      "phonetic": "LAY-shuh",
+      "phoneme": "lay shuh",
+      "source": "bible_blender"
+    },
+    "Lasharon": {
+      "phonetic": "luh-SHAIR-uhn",
+      "phoneme": "luh shair uhn",
+      "source": "bible_blender"
+    },
+    "Lazurs": {
+      "phonetic": "La-zuh-ruhs",
+      "phoneme": "la zuh ruhs",
+      "source": "bible_blender"
+    },
+    "Lebbaeus": {
+      "phonetic": "lih-BEE-uhs",
+      "phoneme": "lih bee uhs",
+      "source": "bible_blender"
+    },
+    "Lehabites": {
+      "phonetic": "LEE-huh-bite",
+      "phoneme": "lee huh bite",
+      "source": "bible_blender"
+    },
+    "Lemuel": {
+      "phonetic": "LEM-yoo-uhl",
+      "phoneme": "lem yoo uhl",
+      "source": "bible_blender"
+    },
+    "Leshem": {
+      "phonetic": "LEE-shuhm",
+      "phoneme": "lee shuhm",
+      "source": "bible_blender"
+    },
+    "Levirate": {
+      "phonetic": "LEE-vuh-ruht",
+      "phoneme": "lee vuh ruht",
+      "source": "bible_blender"
+    },
+    "Libation": {
+      "phonetic": "lie-BAY-shuhn",
+      "phoneme": "lie bay shuhn",
+      "source": "bible_blender"
+    },
+    "Lilith": {
+      "phonetic": "LIH-luhth",
+      "phoneme": "lih luhth",
+      "source": "bible_blender"
+    },
+    "Ludim": {
+      "phonetic": "LOO-dim",
+      "phoneme": "loo dim",
+      "source": "bible_blender"
+    },
+    "Lycaonia": {
+      "phonetic": "lik-ih-OH-nee-uh",
+      "phoneme": "lik ih oh nee uh",
+      "source": "bible_blender"
+    },
+    "Lycaonian": {
+      "phonetic": "lik-uh-OH-nee-uhn",
+      "phoneme": "lik uh oh nee uhn",
+      "source": "bible_blender"
+    },
+    "Lycia": {
+      "phonetic": "LIH-shee-uh",
+      "phoneme": "lih shee uh",
+      "source": "bible_blender"
+    },
+    "Lydda": {
+      "phonetic": "LIH-duh",
+      "phoneme": "lih duh",
+      "source": "bible_blender"
+    },
+    "Lysanias": {
+      "phonetic": "li-SAY-nee-uhs",
+      "phoneme": "li say nee uhs",
+      "source": "bible_blender"
+    },
+    "Lysias": {
+      "phonetic": "LIS-ee-uhs",
+      "phoneme": "lis ee uhs",
+      "source": "bible_blender"
+    },
+    "Lystra": {
+      "phonetic": "LIS-truh",
+      "phoneme": "lis truh",
+      "source": "bible_blender"
+    },
+    "Maacah": {
+      "phonetic": "MAY-uh-kuh",
+      "phoneme": "may uh kuh",
+      "source": "bible_blender"
+    },
+    "Maacathite": {
+      "phonetic": "may-AK-uh-thite",
+      "phoneme": "may ak uh thite",
+      "source": "bible_blender"
+    },
+    "Maadai": {
+      "phonetic": "may-uh-DAY-i",
+      "phoneme": "may uh day i",
+      "source": "bible_blender"
+    },
+    "Maaseiah": {
+      "phonetic": "mah-uh-SIE-uh",
+      "phoneme": "mah uh sie uh",
+      "source": "bible_blender"
+    },
+    "Maasai": {
+      "phonetic": "MAY-uh-sie",
+      "phoneme": "may uh sie",
+      "source": "bible_blender"
+    },
+    "Maat": {
+      "phonetic": "muh-AHT",
+      "phoneme": "muh aht",
+      "source": "bible_blender"
+    },
+    "Maath": {
+      "phonetic": "MAY-ath",
+      "phoneme": "may ath",
+      "source": "bible_blender"
+    },
+    "Maccabean": {
+      "phonetic": "ma-kuh-BEE-uhn",
+      "phoneme": "ma kuh bee uhn",
+      "source": "bible_blender"
+    },
+    "Maccabee": {
+      "phonetic": "MAK-uh-bee",
+      "phoneme": "mak uh bee",
+      "source": "bible_blender"
+    },
+    "Macedonia": {
+      "phonetic": "ma-suh-DOH-nee-uh",
+      "phoneme": "ma suh doh nee uh",
+      "source": "bible_blender"
+    },
+    "Machabees": {
+      "phonetic": "MAK-uh-beez",
+      "phoneme": "mak uh beez",
+      "source": "bible_blender"
+    },
+    "Machbanai": {
+      "phonetic": "MAK-buh-nie",
+      "phoneme": "mak buh nie",
+      "source": "bible_blender"
+    },
+    "Machi": {
+      "phonetic": "MAY-kie",
+      "phoneme": "may kie",
+      "source": "bible_blender"
+    },
+    "Machir": {
+      "phonetic": "MAY-kihr",
+      "phoneme": "may kihr",
+      "source": "bible_blender"
+    },
+    "Machpelah": {
+      "phonetic": "mak-PEE-lah",
+      "phoneme": "mak pee lah",
+      "source": "bible_blender"
+    },
+    "Madai": {
+      "phonetic": "MAY-die",
+      "phoneme": "may die",
+      "source": "bible_blender"
+    },
+    "Magadan": {
+      "phonetic": "MAG-uh-dan",
+      "phoneme": "mag uh dan",
+      "source": "bible_blender"
+    },
+    "Magdala": {
+      "phonetic": "MAG-duh-luh",
+      "phoneme": "mag duh luh",
+      "source": "bible_blender"
+    },
+    "Magdalen": {
+      "phonetic": "MAG-duh-luhn",
+      "phoneme": "mag duh luhn",
+      "source": "bible_blender"
+    },
+    "Magog": {
+      "phonetic": "MAY-gog",
+      "phoneme": "may gog",
+      "source": "bible_blender"
+    },
+    "Mahalalel": {
+      "phonetic": "muh-HAL-uh-luhl",
+      "phoneme": "muh hal uh luhl",
+      "source": "bible_blender"
+    },
+    "Mahalath": {
+      "phonetic": "MAY-huh-lath",
+      "phoneme": "may huh lath",
+      "source": "bible_blender"
+    },
+    "Mahanaim": {
+      "phonetic": "may-hun-NAY-im",
+      "phoneme": "may hun nay im",
+      "source": "bible_blender"
+    },
+    "Mahar-shalal-hash-baz": {
+      "phonetic": "MAY-huhr-SHAL-al-hash-baz",
+      "phoneme": "may huhr shal al hash baz",
+      "source": "bible_blender"
+    },
+    "Mahlah": {
+      "phonetic": "MAH-luh",
+      "phoneme": "mah luh",
+      "source": "bible_blender"
+    },
+    "Mahli": {
+      "phonetic": "MAH-lie",
+      "phoneme": "mah lie",
+      "source": "bible_blender"
+    },
+    "Mahseiah": {
+      "phonetic": "muh-SIE-uh",
+      "phoneme": "muh sie uh",
+      "source": "bible_blender"
+    },
+    "Malcam": {
+      "phonetic": "MAL-kam",
+      "phoneme": "mal kam",
+      "source": "bible_blender"
+    },
+    "Malchiah": {
+      "phonetic": "mal-KIE-uh",
+      "phoneme": "mal kie uh",
+      "source": "bible_blender"
+    },
+    "Malchishua": {
+      "phonetic": "mal-kie-SHOO-uh",
+      "phoneme": "mal kie shoo uh",
+      "source": "bible_blender"
+    },
+    "Malchus": {
+      "phonetic": "MAL-kuhs",
+      "phoneme": "mal kuhs",
+      "source": "bible_blender"
+    },
+    "malefactor": {
+      "phonetic": "MAL-uh-fak-tuhr",
+      "phoneme": "mal uh fak tuhr",
+      "source": "bible_blender"
+    },
+    "Malkishua": {
+      "phonetic": "mal-kie-SHOO-uh",
+      "phoneme": "mal kie shoo uh",
+      "source": "bible_blender"
+    },
+    "Mamre": {
+      "phonetic": "MAM-ree",
+      "phoneme": "mam ree",
+      "source": "bible_blender"
+    },
+    "Manaen": {
+      "phonetic": "MAN-ee-uhn",
+      "phoneme": "man ee uhn",
+      "source": "bible_blender"
+    },
+    "Manoah": {
+      "phonetic": "muh-NOH-us",
+      "phoneme": "muh noh us",
+      "source": "bible_blender"
+    },
+    "Mara": {
+      "phonetic": "MAY-ruh",
+      "phoneme": "may ruh",
+      "source": "bible_blender"
+    },
+    "Marah": {
+      "phonetic": "MAY-rah",
+      "phoneme": "may rah",
+      "source": "bible_blender"
+    },
+    "Maralah": {
+      "phonetic": "MAHR-uh-luh",
+      "phoneme": "mahr uh luh",
+      "source": "bible_blender"
+    },
+    "Mattaniah": {
+      "phonetic": "mat-uh-nie-uh",
+      "phoneme": "mat uh nie uh",
+      "source": "bible_blender"
+    },
+    "Mattathias": {
+      "phonetic": "ma-tuh-THIE-uhs",
+      "phoneme": "ma tuh thie uhs",
+      "source": "bible_blender"
+    },
+    "Mattenai": {
+      "phonetic": "MAT-uh-nie",
+      "phoneme": "mat uh nie",
+      "source": "bible_blender"
+    },
+    "Matthat": {
+      "phonetic": "MAT-that",
+      "phoneme": "mat that",
+      "source": "bible_blender"
+    },
+    "Matthias": {
+      "phonetic": "muh-THIE-uhs",
+      "phoneme": "muh thie uhs",
+      "source": "bible_blender"
+    },
+    "Mattithiah": {
+      "phonetic": "mat-uh-THIE-uh",
+      "phoneme": "mat uh thie uh",
+      "source": "bible_blender"
+    },
+    "Mazzaroth": {
+      "phonetic": "MAX-uh-roth",
+      "phoneme": "max uh roth",
+      "source": "bible_blender"
+    },
+    "Medaba": {
+      "phonetic": "MED-uh-bah",
+      "phoneme": "med uh bah",
+      "source": "bible_blender"
+    },
+    "Mede": {
+      "phonetic": "MEED",
+      "phoneme": "meed",
+      "source": "bible_blender"
+    },
+    "Media": {
+      "phonetic": "MEE-dee-uh",
+      "phoneme": "mee dee uh",
+      "source": "bible_blender"
+    },
+    "Megiddo": {
+      "phonetic": "mih-GIH-doh",
+      "phoneme": "mih gih doh",
+      "source": "bible_blender"
+    },
+    "Mehetabeel": {
+      "phonetic": "muh_HET-uh-bee-hul",
+      "phoneme": "muh het uh bee hul",
+      "source": "bible_blender"
+    },
+    "Mehetabel": {
+      "phonetic": "muh_HET-uh-bel",
+      "phoneme": "muh het uh bel",
+      "source": "bible_blender"
+    },
+    "Melchishua": {
+      "phonetic": "mel-kie-SHOO-uh",
+      "phoneme": "mel kie shoo uh",
+      "source": "bible_blender"
+    },
+    "Melea": {
+      "phonetic": "MEE-lee-uh",
+      "phoneme": "mee lee uh",
+      "source": "bible_blender"
+    },
+    "Melech": {
+      "phonetic": "MEL-ik",
+      "phoneme": "mel ik",
+      "source": "bible_blender"
+    },
+    "Melita": {
+      "phonetic": "ME-luh-tuh",
+      "phoneme": "me luh tuh",
+      "source": "bible_blender"
+    },
+    "Menahem": {
+      "phonetic": "MEN-uh-hem",
+      "phoneme": "men uh hem",
+      "source": "bible_blender"
+    },
+    "Mene": {
+      "phonetic": "MEE-nee",
+      "phoneme": "mee nee",
+      "source": "bible_blender"
+    },
+    "Meonenim": {
+      "phonetic": "mee-AHN-uh-him",
+      "phoneme": "mee ahn uh him",
+      "source": "bible_blender"
+    },
+    "Mephibosheth": {
+      "phonetic": "mih-FIG-oh-sheth",
+      "phoneme": "mih fig oh sheth",
+      "source": "bible_blender"
+    },
+    "Merab": {
+      "phonetic": "MEE-rab",
+      "phoneme": "mee rab",
+      "source": "bible_blender"
+    },
+    "Merari": {
+      "phonetic": "mih-RAHR-EYE",
+      "phoneme": "mih rahr eye",
+      "source": "bible_blender"
+    },
+    "Merarite": {
+      "phonetic": "mih-RAH-right",
+      "phoneme": "mih rah right",
+      "source": "bible_blender"
+    },
+    "Merathaim": {
+      "phonetic": "mer-uh-THAY-im",
+      "phoneme": "mer uh thay im",
+      "source": "bible_blender"
+    },
+    "Meribah": {
+      "phonetic": "MER-ih-bah",
+      "phoneme": "mer ih bah",
+      "source": "bible_blender"
+    },
+    "Merodach": {
+      "phonetic": "MER-oh-dak",
+      "phoneme": "mer oh dak",
+      "source": "bible_blender"
+    },
+    "Merodach-baladan": {
+      "phonetic": "MER-oh-dak-BAL-uh-dan",
+      "phoneme": "mer oh dak bal uh dan",
+      "source": "bible_blender"
+    },
+    "Meroz": {
+      "phonetic": "MEE-roz",
+      "phoneme": "mee roz",
+      "source": "bible_blender"
+    },
+    "Mesha": {
+      "phonetic": "MEE-shuh",
+      "phoneme": "mee shuh",
+      "source": "bible_blender"
+    },
+    "Meshach": {
+      "phonetic": "MEE-shak",
+      "phoneme": "mee shak",
+      "source": "bible_blender"
+    },
+    "Meshech": {
+      "phonetic": "MEE-shek",
+      "phoneme": "mee shek",
+      "source": "bible_blender"
+    },
+    "Meshillemoth": {
+      "phonetic": "muh-SHIL-uh-moth",
+      "phoneme": "muh shil uh moth",
+      "source": "bible_blender"
+    },
+    "Meshullemeth": {
+      "phonetic": "muh-SHUHL-eh-meth",
+      "phoneme": "muh shuhl eh meth",
+      "source": "bible_blender"
+    },
+    "Mesopotamia": {
+      "phonetic": "mes-oh-puh-TAY-mee-un",
+      "phoneme": "mes oh puh tay mee un",
+      "source": "bible_blender"
+    },
+    "Mete": {
+      "phonetic": "MEET",
+      "phoneme": "meet",
+      "source": "bible_blender"
+    },
+    "meteyard": {
+      "phonetic": "MEET-yahrd",
+      "phoneme": "meet yahrd",
+      "source": "bible_blender"
+    },
+    "Methegammah": {
+      "phonetic": "meth-ig-AM-uh",
+      "phoneme": "meth ig am uh",
+      "source": "bible_blender"
+    },
+    "methuselah": {
+      "phonetic": "mih-THOO-suh-luh",
+      "phoneme": "mih thoo suh luh",
+      "source": "bible_blender"
+    },
+    "Micaiah": {
+      "phonetic": "muh-KIE-uh",
+      "phoneme": "muh kie uh",
+      "source": "bible_blender"
+    },
+    "Micheas": {
+      "phonetic": "MIE-ke-uhs",
+      "phoneme": "mie ke uhs",
+      "source": "bible_blender"
+    },
+    "Machmas": {
+      "phonetic": "MIK-mas",
+      "phoneme": "mik mas",
+      "source": "bible_blender"
+    },
+    "Michri": {
+      "phonetic": "MIK-rie",
+      "phoneme": "mik rie",
+      "source": "bible_blender"
+    },
+    "Midian": {
+      "phonetic": "MID-ee-uhn",
+      "phoneme": "mid ee uhn",
+      "source": "bible_blender"
+    },
+    "Migdol": {
+      "phonetic": "MIG-dol",
+      "phoneme": "mig dol",
+      "source": "bible_blender"
+    },
+    "Miktam": {
+      "phonetic": "MIK-tam",
+      "phoneme": "mik tam",
+      "source": "bible_blender"
+    },
+    "Milcah": {
+      "phonetic": "MIL-kuh",
+      "phoneme": "mil kuh",
+      "source": "bible_blender"
+    },
+    "Miletum": {
+      "phonetic": "mie-LEE-tuhm",
+      "phoneme": "mie lee tuhm",
+      "source": "bible_blender"
+    },
+    "Mina": {
+      "phonetic": "MIE-nuh",
+      "phoneme": "mie nuh",
+      "source": "bible_blender"
+    },
+    "Mishael": {
+      "phonetic": "MISH-ay-el",
+      "phoneme": "mish ay el",
+      "source": "bible_blender"
+    },
+    "Mithra": {
+      "phonetic": "MITH-ruh",
+      "phoneme": "mith ruh",
+      "source": "bible_blender"
+    },
+    "Mithredath": {
+      "phonetic": "MITH-ruh-dath",
+      "phoneme": "mith ruh dath",
+      "source": "bible_blender"
+    },
+    "Mithridates": {
+      "phonetic": "mith-ruh-DAY-teez",
+      "phoneme": "mith ruh day teez",
+      "source": "bible_blender"
+    },
+    "Mitylene": {
+      "phonetic": "mit-uh-LEE-nuh",
+      "phoneme": "mit uh lee nuh",
+      "source": "bible_blender"
+    },
+    "Mizar": {
+      "phonetic": "MIE-zahr",
+      "phoneme": "mie zahr",
+      "source": "bible_blender"
+    },
+    "Mispah": {
+      "phonetic": "MIZ-puh",
+      "phoneme": "miz puh",
+      "source": "bible_blender"
+    },
+    "Mizraim": {
+      "phonetic": "mis-RAY-im",
+      "phoneme": "mis ray im",
+      "source": "bible_blender"
+    },
+    "Mnason": {
+      "phonetic": "NAY-suh",
+      "phoneme": "nay suh",
+      "source": "bible_blender"
+    },
+    "Moabite": {
+      "phonetic": "MOH-uh-bite",
+      "phoneme": "moh uh bite",
+      "source": "bible_blender"
+    },
+    "Molech": {
+      "phonetic": "MOH-lek",
+      "phoneme": "moh lek",
+      "source": "bible_blender"
+    },
+    "Mpoh": {
+      "phonetic": "MOF",
+      "phoneme": "mof",
+      "source": "bible_blender"
+    },
+    "Mordecai": {
+      "phonetic": "MOR-duh-kie",
+      "phoneme": "mor duh kie",
+      "source": "bible_blender"
+    },
+    "Moreh": {
+      "phonetic": "MOH-ray",
+      "phoneme": "moh ray",
+      "source": "bible_blender"
+    },
+    "Moresheth": {
+      "phonetic": "MOR-uh-sheth",
+      "phoneme": "mor uh sheth",
+      "source": "bible_blender"
+    },
+    "Moriah": {
+      "phonetic": "muh-RIE-uh",
+      "phoneme": "muh rie uh",
+      "source": "bible_blender"
+    },
+    "Mosoch": {
+      "phonetic": "MOH-sok",
+      "phoneme": "moh sok",
+      "source": "bible_blender"
+    },
+    "Mushi": {
+      "phonetic": "MOO-shie",
+      "phoneme": "moo shie",
+      "source": "bible_blender"
+    },
+    "Mysia": {
+      "phonetic": "MISH-ee-uh",
+      "phoneme": "mish ee uh",
+      "source": "bible_blender"
+    },
+    "Naamah": {
+      "phonetic": "NAY-uh-muh",
+      "phoneme": "nay uh muh",
+      "source": "bible_blender"
+    },
+    "Naggai": {
+      "phonetic": "NAG-uh-eye",
+      "phoneme": "nag uh eye",
+      "source": "bible_blender"
+    },
+    "Nahor": {
+      "phonetic": "NAY-hor",
+      "phoneme": "nay hor",
+      "source": "bible_blender"
+    },
+    "Naphish": {
+      "phonetic": "NAY-fish",
+      "phoneme": "nay fish",
+      "source": "bible_blender"
+    },
+    "Naphtuhim": {
+      "phonetic": "NAF-tuh-him",
+      "phoneme": "naf tuh him",
+      "source": "bible_blender"
+    },
+    "Nashim": {
+      "phonetic": "NAY-shim",
+      "phoneme": "nay shim",
+      "source": "bible_blender"
+    },
+    "Neapolis": {
+      "phonetic": "nee-A-puh-lis",
+      "phoneme": "nee a puh lis",
+      "source": "bible_blender"
+    },
+    "Nebaioth": {
+      "phonetic": "nee-BAY-yoth",
+      "phoneme": "nee bay yoth",
+      "source": "bible_blender"
+    },
+    "Negeb": {
+      "phonetic": "NEG-eb",
+      "phoneme": "neg eb",
+      "source": "bible_blender"
+    },
+    "Negev": {
+      "phonetic": "NEG-ev",
+      "phoneme": "neg ev",
+      "source": "bible_blender"
+    },
+    "Nehemias": {
+      "phonetic": "nee-uh-MIE-uhs",
+      "phoneme": "nee uh mie uhs",
+      "source": "bible_blender"
+    },
+    "Nephilim": {
+      "phonetic": "NEF-uh-lim",
+      "phoneme": "nef uh lim",
+      "source": "bible_blender"
+    },
+    "Nimrod": {
+      "phonetic": "HIM-rahd",
+      "phoneme": "him rahd",
+      "source": "bible_blender"
+    },
+    "Noe": {
+      "phonetic": "NOH-ee",
+      "phoneme": "noh ee",
+      "source": "bible_blender"
+    },
+    "Oholah": {
+      "phonetic": "oh-HOH-lah",
+      "phoneme": "oh hoh lah",
+      "source": "bible_blender"
+    },
+    "Onan": {
+      "phonetic": "OH-nan",
+      "phoneme": "oh nan",
+      "source": "bible_blender"
+    },
+    "Ophir": {
+      "phonetic": "OH-fuhr",
+      "phoneme": "oh fuhr",
+      "source": "bible_blender"
+    },
+    "Ossuary": {
+      "phonetic": "OSH-oo-er-ee",
+      "phoneme": "osh oo er ee",
+      "source": "bible_blender"
+    },
+    "Ozem": {
+      "phonetic": "OH-zihm",
+      "phoneme": "oh zihm",
+      "source": "bible_blender"
+    },
+    "Paarai": {
+      "phonetic": "PAY-uh-rie",
+      "phoneme": "pay uh rie",
+      "source": "bible_blender"
+    },
+    "Padan": {
+      "phonetic": "PAY-duhn",
+      "phoneme": "pay duhn",
+      "source": "bible_blender"
+    },
+    "Paddan": {
+      "phonetic": "PAY-duhn",
+      "phoneme": "pay duhn",
+      "source": "bible_blender"
+    },
+    "Padan-aram": {
+      "phonetic": "pay-duhn-AIR-uhm",
+      "phoneme": "pay duhn air uhm",
+      "source": "bible_blender"
+    },
+    "Paddan-aram": {
+      "phonetic": "pay-duhn-AIR-uhm",
+      "phoneme": "pay duhn air uhm",
+      "source": "bible_blender"
+    },
+    "Paphos": {
+      "phonetic": "PAY-fos",
+      "phoneme": "pay fos",
+      "source": "bible_blender"
+    },
+    "Paraclete": {
+      "phonetic": "PAIR-uh-kleet",
+      "phoneme": "pair uh kleet",
+      "source": "bible_blender"
+    },
+    "Parakletos": {
+      "phonetic": "pair-AHK-lay-tos",
+      "phoneme": "pair ahk lay tos",
+      "source": "bible_blender"
+    },
+    "Paran": {
+      "phonetic": "PAY-ruhn",
+      "phoneme": "pay ruhn",
+      "source": "bible_blender"
+    },
+    "Parmenas": {
+      "phonetic": "PAHR-mee-nuhs",
+      "phoneme": "pahr mee nuhs",
+      "source": "bible_blender"
+    },
+    "Pasch": {
+      "phonetic": "PASK",
+      "phoneme": "pask",
+      "source": "bible_blender"
+    },
+    "Patara": {
+      "phonetic": "PAT-uh-rah",
+      "phoneme": "pat uh rah",
+      "source": "bible_blender"
+    },
+    "Patmos": {
+      "phonetic": "PAT-mos",
+      "phoneme": "pat mos",
+      "source": "bible_blender"
+    },
+    "Pedaiah": {
+      "phonetic": "pih-DAY-yuh",
+      "phoneme": "pih day yuh",
+      "source": "bible_blender"
+    },
+    "Pekah": {
+      "phonetic": "PEE-kah",
+      "phoneme": "pee kah",
+      "source": "bible_blender"
+    },
+    "Peleg": {
+      "phonetic": "PEE-leg",
+      "phoneme": "pee leg",
+      "source": "bible_blender"
+    },
+    "Pentateuch": {
+      "phonetic": "PEN-tuh-took",
+      "phoneme": "pen tuh took",
+      "source": "bible_blender"
+    },
+    "Perazim": {
+      "phonetic": "puh-RAY-zim",
+      "phoneme": "puh ray zim",
+      "source": "bible_blender"
+    },
+    "Peres": {
+      "phonetic": "PEE-rez",
+      "phoneme": "pee rez",
+      "source": "bible_blender"
+    },
+    "Perez": {
+      "phonetic": "PEE-riz",
+      "phoneme": "pee riz",
+      "source": "bible_blender"
+    },
+    "Perizzites": {
+      "phonetic": "PER-uh-zights",
+      "phoneme": "per uh zights",
+      "source": "bible_blender"
+    },
+    "Pharisee": {
+      "phonetic": "FAIR-uh-see",
+      "phoneme": "fair uh see",
+      "source": "bible_blender"
+    },
+    "Philemon": {
+      "phonetic": "fih-LEE-muhn",
+      "phoneme": "fih lee muhn",
+      "source": "bible_blender"
+    },
+    "Philippians": {
+      "phonetic": "fuh-LIP-ee-uhns",
+      "phoneme": "fuh lip ee uhns",
+      "source": "bible_blender"
+    },
+    "Philistia": {
+      "phonetic": "fuh-LIS-tee-uh",
+      "phoneme": "fuh lis tee uh",
+      "source": "bible_blender"
+    },
+    "Philistine": {
+      "phonetic": "fuh-LIS-teen",
+      "phoneme": "fuh lis teen",
+      "source": "bible_blender"
+    },
+    "Pishon": {
+      "phonetic": "P-EYE-shon",
+      "phoneme": "p eye shon",
+      "source": "bible_blender"
+    },
+    "Pison": {
+      "phonetic": "P-EYE-shon",
+      "phoneme": "p eye shon",
+      "source": "bible_blender"
+    },
+    "Polycarp": {
+      "phonetic": "POL-ee-kahrp",
+      "phoneme": "pol ee kahrp",
+      "source": "bible_blender"
+    },
+    "Pontius Pilate": {
+      "phonetic": "PON-chuhs-PIE-luht",
+      "phoneme": "pon chuhs pie luht",
+      "source": "bible_blender"
+    },
+    "Porcius Festus": {
+      "phonetic": "POR-shuhs-FES-tuhs",
+      "phoneme": "por shuhs fes tuhs",
+      "source": "bible_blender"
+    },
+    "Potentate": {
+      "phonetic": "POH-tuh-nu-tayt",
+      "phoneme": "poh tuh nu tayt",
+      "source": "bible_blender"
+    },
+    "Potiphera": {
+      "phonetic": "poh-TIH-fih-ruh",
+      "phoneme": "poh tih fih ruh",
+      "source": "bible_blender"
+    },
+    "Proselyte": {
+      "phonetic": "PRAH-suh-light",
+      "phoneme": "prah suh light",
+      "source": "bible_blender"
+    },
+    "Pseudepigrapha": {
+      "phonetic": "soo-dih-PIH-gruh-fuh",
+      "phoneme": "soo dih pih gruh fuh",
+      "source": "bible_blender"
+    },
+    "Ptah": {
+      "phonetic": "p-tah",
+      "phoneme": "p tah",
+      "source": "bible_blender"
+    },
+    "Publius": {
+      "phonetic": "PUHB-lee-uhs",
+      "phoneme": "puhb lee uhs",
+      "source": "bible_blender"
+    },
+    "Qere": {
+      "phonetic": "KUH-ree",
+      "phoneme": "kuh ree",
+      "source": "bible_blender"
+    },
+    "Qoheleth": {
+      "phonetic": "koh-HEL-ith",
+      "phoneme": "koh hel ith",
+      "source": "bible_blender"
+    },
+    "Quartus": {
+      "phonetic": "KWOR-tuhs",
+      "phoneme": "kwor tuhs",
+      "source": "bible_blender"
+    },
+    "Qumran": {
+      "phonetic": "KOOM-rahn",
+      "phoneme": "koom rahn",
+      "source": "bible_blender"
+    },
+    "Ra": {
+      "phonetic": "RAH",
+      "phoneme": "rah",
+      "source": "bible_blender"
+    },
+    "Raamah": {
+      "phonetic": "RAY-uh-mah",
+      "phoneme": "ray uh mah",
+      "source": "bible_blender"
+    },
+    "Raamses": {
+      "phonetic": "ray-AM-seez",
+      "phoneme": "ray am seez",
+      "source": "bible_blender"
+    },
+    "Rabbah": {
+      "phonetic": "RAB-uh",
+      "phoneme": "rab uh",
+      "source": "bible_blender"
+    },
+    "Rabbath": {
+      "phonetic": "RAB-uhth",
+      "phoneme": "rab uhth",
+      "source": "bible_blender"
+    },
+    "Rabbith": {
+      "phonetic": "RAB-ith",
+      "phoneme": "rab ith",
+      "source": "bible_blender"
+    },
+    "Rabboni": {
+      "phonetic": "ra_BOH-nie",
+      "phoneme": "ra boh nie",
+      "source": "bible_blender"
+    },
+    "Rabmag": {
+      "phonetic": "RAG-mag",
+      "phoneme": "rag mag",
+      "source": "bible_blender"
+    },
+    "Rameses": {
+      "phonetic": "RAM-us-seez",
+      "phoneme": "ram us seez",
+      "source": "bible_blender"
+    },
+    "Ramses": {
+      "phonetic": "RAM-seez",
+      "phoneme": "ram seez",
+      "source": "bible_blender"
+    },
+    "Raphaim": {
+      "phonetic": "RAF-ay-im",
+      "phoneme": "raf ay im",
+      "source": "bible_blender"
+    },
+    "Rehabiah": {
+      "phonetic": "ray-huh-BIE-uh",
+      "phoneme": "ray huh bie uh",
+      "source": "bible_blender"
+    },
+    "Reheboam": {
+      "phonetic": "ree-uh-BOH-uhm",
+      "phoneme": "ree uh boh uhm",
+      "source": "bible_blender"
+    },
+    "Rehoboth": {
+      "phonetic": "rih-HOH-bohth",
+      "phoneme": "rih hoh bohth",
+      "source": "bible_blender"
+    },
+    "Rephael": {
+      "phonetic": "REF-ay-uhl",
+      "phoneme": "ref ay uhl",
+      "source": "bible_blender"
+    },
+    "Rephaim": {
+      "phonetic": "REF-ay-im",
+      "phoneme": "ref ay im",
+      "source": "bible_blender"
+    },
+    "Rephidim": {
+      "phonetic": "REF-ih-dim",
+      "phoneme": "ref ih dim",
+      "source": "bible_blender"
+    },
+    "Reu": {
+      "phonetic": "REE-oo",
+      "phoneme": "ree oo",
+      "source": "bible_blender"
+    },
+    "Reuel": {
+      "phonetic": "ROO-el",
+      "phoneme": "roo el",
+      "source": "bible_blender"
+    },
+    "Reumah": {
+      "phonetic": "ROO-muh",
+      "phoneme": "roo muh",
+      "source": "bible_blender"
+    },
+    "Riblah": {
+      "phonetic": "RIB-luh",
+      "phoneme": "rib luh",
+      "source": "bible_blender"
+    },
+    "Riphath": {
+      "phonetic": "RIE-fath",
+      "phoneme": "rie fath",
+      "source": "bible_blender"
+    },
+    "Rizpah": {
+      "phonetic": "RIZ-pah",
+      "phoneme": "riz pah",
+      "source": "bible_blender"
+    },
+    "Rodanim": {
+      "phonetic": "ROH-duh-nim",
+      "phoneme": "roh duh nim",
+      "source": "bible_blender"
+    },
+    "Rumah": {
+      "phonetic": "ROO-mah",
+      "phoneme": "roo mah",
+      "source": "bible_blender"
+    },
+    "Saba": {
+      "phonetic": "SAY-buh",
+      "phoneme": "say buh",
+      "source": "bible_blender"
+    },
+    "Sabachthani": {
+      "phonetic": "suh-BAK-thuh-nie",
+      "phoneme": "suh bak thuh nie",
+      "source": "bible_blender"
+    },
+    "Sabaoth": {
+      "phonetic": "SAB-ay-oth",
+      "phoneme": "sab ay oth",
+      "source": "bible_blender"
+    },
+    "Sabeans": {
+      "phonetic": "suh-BEE-uhnz",
+      "phoneme": "suh bee uhnz",
+      "source": "bible_blender"
+    },
+    "Sadducee": {
+      "phonetic": "SAD-joo-see",
+      "phoneme": "sad joo see",
+      "source": "bible_blender"
+    },
+    "Sadoc": {
+      "phonetic": "SAY-doc",
+      "phoneme": "say doc",
+      "source": "bible_blender"
+    },
+    "Saffron": {
+      "phonetic": "SAF-ruhn",
+      "phoneme": "saf ruhn",
+      "source": "bible_blender"
+    },
+    "Sakkuth": {
+      "phonetic": "SAK-uhth",
+      "phoneme": "sak uhth",
+      "source": "bible_blender"
+    },
+    "Salome": {
+      "phonetic": "suh-LOH-mee",
+      "phoneme": "suh loh mee",
+      "source": "bible_blender"
+    },
+    "Samos": {
+      "phonetic": "SAY-mos",
+      "phoneme": "say mos",
+      "source": "bible_blender"
+    },
+    "Sanhedrin": {
+      "phonetic": "SAN-heh-drihn",
+      "phoneme": "san heh drihn",
+      "source": "bible_blender"
+    },
+    "Sarai": {
+      "phonetic": "SAIR-eye",
+      "phoneme": "sair eye",
+      "source": "bible_blender"
+    },
+    "Sardis": {
+      "phonetic": "SAHR-dis",
+      "phoneme": "sahr dis",
+      "source": "bible_blender"
+    },
+    "Sargon": {
+      "phonetic": "SAHR-gahn",
+      "phoneme": "sahr gahn",
+      "source": "bible_blender"
+    },
+    "Scepter": {
+      "phonetic": "SEP-tuhr",
+      "phoneme": "sep tuhr",
+      "source": "bible_blender"
+    },
+    "Scythe": {
+      "phonetic": "S-EYE-TH",
+      "phoneme": "s eye th",
+      "source": "bible_blender"
+    },
+    "Seir": {
+      "phonetic": "SEE-uhr",
+      "phoneme": "see uhr",
+      "source": "bible_blender"
+    },
+    "Sekhemkhet": {
+      "phonetic": "Sek-kem-keht",
+      "phoneme": "sek kem keht",
+      "source": "bible_blender"
+    },
+    "Sela": {
+      "phonetic": "SEE-luh",
+      "phoneme": "see luh",
+      "source": "bible_blender"
+    },
+    "Selah": {
+      "phonetic": "SEE-luh",
+      "phoneme": "see luh",
+      "source": "bible_blender"
+    },
+    "Seleucia": {
+      "phonetic": "suh-LOO-shee-uh",
+      "phoneme": "suh loo shee uh",
+      "source": "bible_blender"
+    },
+    "Semei": {
+      "phonetic": "SEM-ee-i",
+      "phoneme": "sem ee i",
+      "source": "bible_blender"
+    },
+    "Semite": {
+      "phonetic": "SEH-might",
+      "phoneme": "seh might",
+      "source": "bible_blender"
+    },
+    "Semitism": {
+      "phonetic": "SEM-ih-tiz-uhm",
+      "phoneme": "sem ih tiz uhm",
+      "source": "bible_blender"
+    },
+    "Senir": {
+      "phonetic": "SEE-nuhr",
+      "phoneme": "see nuhr",
+      "source": "bible_blender"
+    },
+    "Seenacherib": {
+      "phonetic": "suh-NAK-uh-rib",
+      "phoneme": "suh nak uh rib",
+      "source": "bible_blender"
+    },
+    "Sepharad": {
+      "phonetic": "suh-FAR-ad",
+      "phoneme": "suh far ad",
+      "source": "bible_blender"
+    },
+    "Sepharvites": {
+      "phonetic": "SEE-fahr-vites",
+      "phoneme": "see fahr vites",
+      "source": "bible_blender"
+    },
+    "Sepulcher": {
+      "phonetic": "SEP-uhl-kuhr",
+      "phoneme": "sep uhl kuhr",
+      "source": "bible_blender"
+    },
+    "Sepulchre": {
+      "phonetic": "SEP-uhl-kuhr",
+      "phoneme": "sep uhl kuhr",
+      "source": "bible_blender"
+    },
+    "Sergius Paulus": {
+      "phonetic": "SUHR-juhs PAW-luhs",
+      "phoneme": "suhr juhs paw luhs",
+      "source": "bible_blender"
+    },
+    "El Shaddai": {
+      "phonetic": "el shah-DIE",
+      "phoneme": "el shah die",
+      "source": "bible_blender"
+    },
+    "Shadrach": {
+      "phonetic": "SHAD-rak",
+      "phoneme": "shad rak",
+      "source": "bible_blender"
+    },
+    "Shalohm": {
+      "phonetic": "shah-LOHM",
+      "phoneme": "shah lohm",
+      "source": "bible_blender"
+    },
+    "shalom": {
+      "phonetic": "shah-LOHM",
+      "phoneme": "shah lohm",
+      "source": "bible_blender"
+    },
+    "Sharon": {
+      "phonetic": "SHAIR-un",
+      "phoneme": "shair un",
+      "source": "bible_blender"
+    },
+    "Shaveh Kirlathaim": {
+      "phonetic": "SHAY-veh kee-RIE-a-them",
+      "phoneme": "shay veh kee rie a them",
+      "source": "bible_blender"
+    },
+    "Sheba": {
+      "phonetic": "SHE-bah",
+      "phoneme": "she bah",
+      "source": "bible_blender"
+    },
+    "Shebat": {
+      "phonetic": "SHEE-bat",
+      "phoneme": "shee bat",
+      "source": "bible_blender"
+    },
+    "Shekel": {
+      "phonetic": "SHEK-uhl",
+      "phoneme": "shek uhl",
+      "source": "bible_blender"
+    },
+    "Shema": {
+      "phonetic": "SHEE-muh",
+      "phoneme": "shee muh",
+      "source": "bible_blender"
+    },
+    "Sheol": {
+      "phonetic": "SHEE-ohl",
+      "phoneme": "shee ohl",
+      "source": "bible_blender"
+    },
+    "Shephelah": {
+      "phonetic": "shih-FEE-luh",
+      "phoneme": "shih fee luh",
+      "source": "bible_blender"
+    },
+    "Shibboleth": {
+      "phonetic": "SHIB-uh-lith",
+      "phoneme": "shib uh lith",
+      "source": "bible_blender"
+    },
+    "Shiloah": {
+      "phonetic": "shi-LOH-ah",
+      "phoneme": "shi loh ah",
+      "source": "bible_blender"
+    },
+    "Shimei": {
+      "phonetic": "SHIM-ee-eye",
+      "phoneme": "shim ee eye",
+      "source": "bible_blender"
+    },
+    "Shinar": {
+      "phonetic": "SH-EYE-nahr",
+      "phoneme": "sh eye nahr",
+      "source": "bible_blender"
+    },
+    "Shur": {
+      "phonetic": "SHOOR",
+      "phoneme": "shoor",
+      "source": "bible_blender"
+    },
+    "Siddim": {
+      "phonetic": "SID-im",
+      "phoneme": "sid im",
+      "source": "bible_blender"
+    },
+    "Sikh": {
+      "phonetic": "SEEK",
+      "phoneme": "seek",
+      "source": "bible_blender"
+    },
+    "Siloam": {
+      "phonetic": "si-LOH-uhm",
+      "phoneme": "si loh uhm",
+      "source": "bible_blender"
+    },
+    "Smyrna": {
+      "phonetic": "SMUHR-nuh",
+      "phoneme": "smuhr nuh",
+      "source": "bible_blender"
+    },
+    "Succoth": {
+      "phonetic": "SUK-oth",
+      "phoneme": "suk oth",
+      "source": "bible_blender"
+    },
+    "Synoptic": {
+      "phonetic": "sin-OP-tik",
+      "phoneme": "sin op tik",
+      "source": "bible_blender"
+    },
+    "Syriac": {
+      "phonetic": "SIHR-ee-ak",
+      "phoneme": "sihr ee ak",
+      "source": "bible_blender"
+    },
+    "Syrtis": {
+      "phonetic": "SUHR-tuhs",
+      "phoneme": "suhr tuhs",
+      "source": "bible_blender"
+    },
+    "Tabeel": {
+      "phonetic": "TAB-ee-uhl",
+      "phoneme": "tab ee uhl",
+      "source": "bible_blender"
+    },
+    "Tarshsish": {
+      "phonetic": "TAHR-shish",
+      "phoneme": "tahr shish",
+      "source": "bible_blender"
+    },
+    "Tebeth": {
+      "phonetic": "TEE-beth",
+      "phoneme": "tee beth",
+      "source": "bible_blender"
+    },
+    "Tehaphnehes": {
+      "phonetic": "tee-HAF-nih-heez",
+      "phoneme": "tee haf nih heez",
+      "source": "bible_blender"
+    },
+    "Tekoa": {
+      "phonetic": "tuh-KOH-uh",
+      "phoneme": "tuh koh uh",
+      "source": "bible_blender"
+    },
+    "Tekoah": {
+      "phonetic": "tuh-KOH-uh",
+      "phoneme": "tuh koh uh",
+      "source": "bible_blender"
+    },
+    "Teraphim": {
+      "phonetic": "TER-uh-fim",
+      "phoneme": "ter uh fim",
+      "source": "bible_blender"
+    },
+    "Tetrarch": {
+      "phonetic": "TET-rahrk",
+      "phoneme": "tet rahrk",
+      "source": "bible_blender"
+    },
+    "Thaddaeus": {
+      "phonetic": "THA-dee-us",
+      "phoneme": "tha dee us",
+      "source": "bible_blender"
+    },
+    "Thebes": {
+      "phonetic": "THEEBZ",
+      "phoneme": "theebz",
+      "source": "bible_blender"
+    },
+    "Thebez": {
+      "phonetic": "THEE-behz",
+      "phoneme": "thee behz",
+      "source": "bible_blender"
+    },
+    "Theophilus": {
+      "phonetic": "THEE-of-UH-LUHS",
+      "phoneme": "thee of uh luhs",
+      "source": "bible_blender"
+    },
+    "Thessalonians": {
+      "phonetic": "thes-uh-LOH-nee-uhnz",
+      "phoneme": "thes uh loh nee uhnz",
+      "source": "bible_blender"
+    },
+    "Theudas": {
+      "phonetic": "THOO-duhs",
+      "phoneme": "thoo duhs",
+      "source": "bible_blender"
+    },
+    "Thyatira": {
+      "phonetic": "th-eye-uh-TIE-ruh",
+      "phoneme": "th eye uh tie ruh",
+      "source": "bible_blender"
+    },
+    "Tiberius": {
+      "phonetic": "ti-BIHR-ee-uhs",
+      "phoneme": "ti bihr ee uhs",
+      "source": "bible_blender"
+    },
+    "Tiras": {
+      "phonetic": "TIGH-ruhs",
+      "phoneme": "tigh ruhs",
+      "source": "bible_blender"
+    },
+    "Tobit": {
+      "phonetic": "TOH-bit",
+      "phoneme": "toh bit",
+      "source": "bible_blender"
+    },
+    "TSohar": {
+      "phonetic": "TSOH-hahr",
+      "phoneme": "tsoh hahr",
+      "source": "bible_blender"
+    },
+    "Tubal": {
+      "phonetic": "TYOO-buhl",
+      "phoneme": "tyoo buhl",
+      "source": "bible_blender"
+    },
+    "Tudhalia": {
+      "phonetic": "TYOO-hal-ia",
+      "phoneme": "tyoo hal ia",
+      "source": "bible_blender"
+    },
+    "Tyrannus": {
+      "phonetic": "tie-RAN-uhs",
+      "phoneme": "tie ran uhs",
+      "source": "bible_blender"
+    },
+    "Uphaz": {
+      "phonetic": "YOO-faz",
+      "phoneme": "yoo faz",
+      "source": "bible_blender"
+    },
+    "Uri": {
+      "phonetic": "YOO-ri",
+      "phoneme": "yoo ri",
+      "source": "bible_blender"
+    },
+    "Urim": {
+      "phonetic": "YOOR-im",
+      "phoneme": "yoor im",
+      "source": "bible_blender"
+    },
+    "Uz": {
+      "phonetic": "UHZ",
+      "phoneme": "uhz",
+      "source": "bible_blender"
+    },
+    "Vellum": {
+      "phonetic": "VEH-luhm",
+      "phoneme": "veh luhm",
+      "source": "bible_blender"
+    },
+    "Vespasian": {
+      "phonetic": "ves-PAY-zhuhn",
+      "phoneme": "ves pay zhuhn",
+      "source": "bible_blender"
+    },
+    "Vigilius": {
+      "phonetic": "vih-JIL-ee-uhs",
+      "phoneme": "vih jil ee uhs",
+      "source": "bible_blender"
+    },
+    "Virgil": {
+      "phonetic": "VUHR-juhl",
+      "phoneme": "vuhr juhl",
+      "source": "bible_blender"
+    },
+    "Vulgate": {
+      "phonetic": "VUHL-gayt",
+      "phoneme": "vuhl gayt",
+      "source": "bible_blender"
+    },
+    "Wadi": {
+      "phonetic": "WAH-dee",
+      "phoneme": "wah dee",
+      "source": "bible_blender"
+    },
+    "Wycliffe": {
+      "phonetic": "WIK-lif",
+      "phoneme": "wik lif",
+      "source": "bible_blender"
+    },
+    "Xanthicus": {
+      "phonetic": "ZAN-thih-kuhs",
+      "phoneme": "zan thih kuhs",
+      "source": "bible_blender"
+    },
+    "Xerxes": {
+      "phonetic": "ZERK-seez",
+      "phoneme": "zerk seez",
+      "source": "bible_blender"
+    },
+    "Xylon": {
+      "phonetic": "KSOO-lon",
+      "phoneme": "ksoo lon",
+      "source": "bible_blender"
+    },
+    "Yah": {
+      "phonetic": "YAH",
+      "phoneme": "yah",
+      "source": "bible_blender"
+    },
+    "Yahweh": {
+      "phonetic": "YAH-weh",
+      "phoneme": "yah weh",
+      "source": "bible_blender"
+    },
+    "Yehoshua": {
+      "phonetic": "yuh-HOSH-you-uh",
+      "phoneme": "yuh hosh you uh",
+      "source": "bible_blender"
+    },
+    "Yom Kippur": {
+      "phonetic": "yawm-KIP-uhr",
+      "phoneme": "yawm kip uhr",
+      "source": "bible_blender"
+    },
+    "Zaanan": {
+      "phonetic": "ZAY-uh-nan",
+      "phoneme": "zay uh nan",
+      "source": "bible_blender"
+    },
+    "Zabbai": {
+      "phonetic": "ZAB-eye",
+      "phoneme": "zab eye",
+      "source": "bible_blender"
+    },
+    "Zacchaeus": {
+      "phonetic": "za-KEE-uhs",
+      "phoneme": "za kee uhs",
+      "source": "bible_blender"
+    },
+    "Zadok": {
+      "phonetic": "ZAY-dok",
+      "phoneme": "zay dok",
+      "source": "bible_blender"
+    },
+    "Zaphenath-Paneah": {
+      "phonetic": "ZAF-ee-nath-pan-EE-uh",
+      "phoneme": "zaf ee nath pan ee uh",
+      "source": "bible_blender"
+    },
+    "Zara": {
+      "phonetic": "ZAIR-uh",
+      "phoneme": "zair uh",
+      "source": "bible_blender"
+    },
+    "Zarephath": {
+      "phonetic": "ZAIR-uh-fath",
+      "phoneme": "zair uh fath",
+      "source": "bible_blender"
+    },
+    "Zebah": {
+      "phonetic": "ZEE-bah",
+      "phoneme": "zee bah",
+      "source": "bible_blender"
+    },
+    "Zebedee": {
+      "phonetic": "ZE-boo-dee",
+      "phoneme": "ze boo dee",
+      "source": "bible_blender"
+    },
+    "Zeboim": {
+      "phonetic": "zuh-BOH-im",
+      "phoneme": "zuh boh im",
+      "source": "bible_blender"
+    },
+    "Zebolim": {
+      "phonetic": "zuh-BOH-lim",
+      "phoneme": "zuh boh lim",
+      "source": "bible_blender"
+    },
+    "Zeeb": {
+      "phonetic": "ZEE-uhb",
+      "phoneme": "zee uhb",
+      "source": "bible_blender"
+    },
+    "Ziba": {
+      "phonetic": "Z-EYE-buh",
+      "phoneme": "z eye buh",
+      "source": "bible_blender"
+    },
+    "Zoar": {
+      "phonetic": "ZOH-uhr",
+      "phoneme": "zoh uhr",
+      "source": "bible_blender"
+    },
+    "Zuzim": {
+      "phonetic": "ZOO-zim",
+      "phoneme": "zoo zim",
+      "source": "bible_blender"
+    }
+  },
+  "places": {
+    "Ararat": {
+      "phonetic": "AIR-uh-rat",
+      "ipa": "/ˈɛrəˌræt/",
+      "phoneme": "air uh rat"
+    },
+    "Assyria": {
+      "phonetic": "uh-SEER-ee-uh",
+      "ipa": "/əˈsɪriə/",
+      "phoneme": "uh seer ee uh"
+    },
+    "Bethany": {
+      "phonetic": "BETH-uh-nee",
+      "ipa": "/ˈbɛθəni/",
+      "phoneme": "beth uh nee"
+    },
+    "Bethel": {
+      "phonetic": "BETH-ul",
+      "ipa": "/ˈbɛθəl/",
+      "phoneme": "beth ul"
+    },
+    "Bethlehem": {
+      "phonetic": "BETH-lih-hem",
+      "ipa": "/ˈbɛθlɪˌhɛm/",
+      "phoneme": "beth lih hem"
+    },
+    "Bethsaida": {
+      "phonetic": "beth-SAY-ih-duh",
+      "ipa": "/bɛθˈseɪɪdə/",
+      "phoneme": "beth saee ih duh"
+    },
+    "Capernaum": {
+      "phonetic": "kuh-PUHR-nee-uhn",
+      "phoneme": "kuh puhr nee uhn",
+      "source": "bible_blender"
+    },
+    "Ephesus": {
+      "phonetic": "EF-uh-suhs",
+      "phoneme": "ef uh suhs",
+      "source": "bible_blender"
+    },
+    "Gethsemane": {
+      "phonetic": "geth-SEM-uh-nee",
+      "ipa": "/ɡɛθˈsɛməni/",
+      "phoneme": "geth sem uh nee"
+    },
+    "Golgotha": {
+      "phonetic": "GOL-guh-thuh",
+      "phoneme": "gol guh thuh",
+      "source": "bible_blender"
+    },
+    "Jericho": {
+      "phonetic": "JAIR-ih-koh",
+      "ipa": "/ˈdʒɛrɪˌkoʊ/",
+      "phoneme": "jair ih koh"
+    },
+    "Jerusalem": {
+      "phonetic": "jih-ROO-suh-lum",
+      "ipa": "/dʒɪˈrusələm/",
+      "phoneme": "jih roo suh lum"
+    },
+    "Macedonia": {
+      "phonetic": "mas-uh-DOH-nee-uh",
+      "ipa": "/ˌmæsəˈdoʊniə/",
+      "phoneme": "mas uh doh nee uh"
+    },
+    "Nazareth": {
+      "phonetic": "NAZ-uh-reth",
+      "ipa": "/ˈnæzərəθ/",
+      "phoneme": "naz uh reth"
+    },
+    "Nineveh": {
+      "phonetic": "NIN-uh-vuh",
+      "ipa": "/ˈnɪnəvə/",
+      "phoneme": "nin uh vuh"
+    },
+    "Philippi": {
+      "phonetic": "fih-LIP-y",
+      "ipa": "/fɪˈlɪpaɪ/",
+      "phoneme": "fih lip ee"
+    },
+    "Samaria": {
+      "phonetic": "suh-MAIR-ee-uh",
+      "ipa": "/səˈmɛriə/",
+      "phoneme": "suh mair ee uh"
+    },
+    "Sodom": {
+      "phonetic": "SOD-uhm",
+      "phoneme": "sod uhm",
+      "source": "bible_blender"
+    },
+    "Thessalonica": {
+      "phonetic": "thes-uh-luh-NY-kuh",
+      "ipa": "/ˌθɛsələˈnaɪkə/",
+      "phoneme": "thes uh luh nee kuh"
+    },
+    "Babel": {
+      "phonetic": "BAY-buhl",
+      "phoneme": "bay buhl",
+      "source": "bible_blender"
+    },
+    "Beersheba": {
+      "phonetic": "bee-ehr_SHEE-buh",
+      "phoneme": "bee ehr shee buh",
+      "source": "bible_blender"
+    },
+    "Damascus": {
+      "phonetic": "duh-MAS-kuhs",
+      "phoneme": "duh mas kuhs",
+      "source": "bible_blender"
+    },
+    "Euphrates": {
+      "phonetic": "yoo-FRAY-teez",
+      "phoneme": "yoo fray teez",
+      "source": "bible_blender"
+    },
+    "Galilee": {
+      "phonetic": "GAL-uh-lee",
+      "phoneme": "gal uh lee",
+      "source": "bible_blender"
+    },
+    "Gibeah": {
+      "phonetic": "GIB-ee-uh",
+      "phoneme": "gib ee uh",
+      "source": "bible_blender"
+    },
+    "Hebron": {
+      "phonetic": "HEE-bruhn",
+      "phoneme": "hee bruhn",
+      "source": "bible_blender"
+    },
+    "Judea": {
+      "phonetic": "joo-DEE-uh",
+      "phoneme": "joo dee uh",
+      "source": "bible_blender"
+    },
+    "Lebanon": {
+      "phonetic": "LEB-uh-nuhn",
+      "phoneme": "leb uh nuhn",
+      "source": "bible_blender"
+    },
+    "Shechem": {
+      "phonetic": "SHEE-kuhm",
+      "phoneme": "shee kuhm",
+      "source": "bible_blender"
+    },
+    "Shiloh": {
+      "phonetic": "SH-EYE-loh",
+      "phoneme": "sh eye loh",
+      "source": "bible_blender"
+    },
+    "Sinai": {
+      "phonetic": "S-EYE-nie",
+      "phoneme": "s eye nie",
+      "source": "bible_blender"
+    },
+    "Tabor": {
+      "phonetic": "TAY-buhr",
+      "phoneme": "tay buhr",
+      "source": "bible_blender"
+    },
+    "Tigris": {
+      "phonetic": "TIE-gris",
+      "phoneme": "tie gris",
+      "source": "bible_blender"
+    },
+    "Tyre": {
+      "phonetic": "TIRE",
+      "phoneme": "tire",
+      "source": "bible_blender"
+    }
+  },
+  "terms": {
+    "Ammonite": {
+      "phonetic": "AM-uh-nit",
+      "phoneme": "am uh nit",
+      "source": "bible_blender"
+    },
+    "Amorite": {
+      "phonetic": "AM-uh-rit",
+      "phoneme": "am uh rit",
+      "source": "bible_blender"
+    },
+    "Apostate": {
+      "phonetic": "uh-PAHS-state",
+      "phoneme": "uh pahs state",
+      "source": "bible_blender"
+    },
+    "Apostolic": {
+      "phonetic": "uh-PAH-stah-lick",
+      "phoneme": "uh pah stah lick",
+      "source": "bible_blender"
+    },
+    "Aramaic": {
+      "phonetic": "air-uh-MAY-ick",
+      "phoneme": "air uh may ick",
+      "source": "bible_blender"
+    },
+    "Aramean": {
+      "phonetic": "air-hu-MEE-uhn",
+      "phoneme": "air hu mee uhn",
+      "source": "bible_blender"
+    },
+    "Byzantine": {
+      "phonetic": "BIZ—in-teen",
+      "phoneme": "biz—in teen",
+      "source": "bible_blender"
+    },
+    "Ceasarean": {
+      "phonetic": "sih-ZAR-ee-uhn",
+      "phoneme": "sih zar ee uhn",
+      "source": "bible_blender"
+    },
+    "Canaanite": {
+      "phonetic": "KAY-nuh-night",
+      "phoneme": "kay nuh night",
+      "source": "bible_blender"
+    }
+  }
+}

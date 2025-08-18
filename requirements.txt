@@ -2,3 +2,6 @@ streamlit>=1.28.0
 streamlit-TTS==0.0.7
 gtts>=2.3.0
 pydub>=0.25.1
+piper-tts>=1.3.0
+flask>=2.3.0
+flask-cors>=4.0.0
