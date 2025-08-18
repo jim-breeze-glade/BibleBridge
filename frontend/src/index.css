@@ -1,0 +1,8 @@
+/* Import theme CSS variables and base styles */
+@import './styles/theme.css';
+
+/* Legacy styles for backwards compatibility */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

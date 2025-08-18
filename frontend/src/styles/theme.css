@@ -1,0 +1,271 @@
+/**
+ * Theme CSS Variables and Global Styles
+ * This file defines CSS custom properties that are dynamically updated by the ThemeContext
+ */
+
+/* Root CSS Variables - Updated dynamically by ThemeContext */
+:root {
+  /* Theme colors (set by JavaScript) */
+  --theme-bg-primary: #ffffff;
+  --theme-bg-secondary: #f8f9fa;
+  --theme-bg-tertiary: #e9ecef;
+  --theme-text-primary: #212529;
+  --theme-text-secondary: #495057;
+  --theme-text-muted: #6c757d;
+  --theme-border: #dee2e6;
+  --theme-accent: #007bff;
+  --theme-error: #dc3545;
+  --theme-success: #28a745;
+  --theme-warning: #ffc107;
+  
+  /* Typography (set by JavaScript) */
+  --theme-font-family: 'Georgia, "Times New Roman", Times, serif';
+  --theme-font-size: 16px;
+  --theme-line-height: 1.6;
+  --theme-text-brightness: 1.0;
+  
+  /* Layout (set by JavaScript) */
+  --theme-sidebar-width: 300px;
+  --theme-panel-spacing: 16px;
+  
+  /* Red letter text (set by JavaScript) */
+  --theme-red-letter-color: #dc3545;
+  --theme-red-letter-brightness: 0.8;
+  
+  /* RGB wave animation (set by JavaScript) */
+  --theme-rgb-wave-enabled: 0;
+  --theme-rgb-wave-speed: 1s;
+  
+  /* Component-specific (set by JavaScript) */
+  --theme-verse-hover-bg: rgba(0, 123, 255, 0.1);
+  --theme-button-bg: #007bff;
+  --theme-button-text: #ffffff;
+  --theme-tooltip-bg: #333333;
+  --theme-tooltip-text: #ffffff;
+  --theme-scrollbar: #adb5bd;
+  
+  /* Transition speeds */
+  --theme-transition-fast: 0.15s;
+  --theme-transition-normal: 0.2s;
+  --theme-transition-slow: 0.3s;
+  
+  /* Border radius */
+  --theme-radius-sm: 4px;
+  --theme-radius-md: 6px;
+  --theme-radius-lg: 8px;
+  --theme-radius-xl: 12px;
+  
+  /* Shadows */
+  --theme-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --theme-shadow-md: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --theme-shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --theme-shadow-xl: 0 8px 16px rgba(0, 0, 0, 0.2);
+  
+  /* Spacing scale */
+  --theme-space-xs: 4px;
+  --theme-space-sm: 8px;
+  --theme-space-md: 12px;
+  --theme-space-lg: 16px;
+  --theme-space-xl: 20px;
+  --theme-space-2xl: 24px;
+  --theme-space-3xl: 32px;
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--theme-font-family);
+  font-size: var(--theme-font-size);
+  line-height: var(--theme-line-height);
+  color: var(--theme-text-primary);
+  background-color: var(--theme-bg-primary);
+  transition: background-color var(--theme-transition-normal) ease,
+              color var(--theme-transition-normal) ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--theme-bg-tertiary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-scrollbar);
+  border-radius: 4px;
+  transition: background-color var(--theme-transition-normal) ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-text-muted);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--theme-bg-tertiary);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--theme-scrollbar) var(--theme-bg-tertiary);
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid var(--theme-accent);
+  outline-offset: 2px;
+}
+
+/* Selection styles */
+::selection {
+  background: var(--theme-accent);
+  color: var(--theme-button-text);
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: var(--theme-accent);
+  color: var(--theme-button-text);
+  text-shadow: none;
+}
+
+/* Link styles */
+a {
+  color: var(--theme-accent);
+  text-decoration: none;
+  transition: color var(--theme-transition-fast) ease;
+}
+
+a:hover {
+  color: var(--theme-accent);
+  text-decoration: underline;
+}
+
+/* Button reset */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+/* Input reset */
+input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--theme-text-primary);
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Utility classes for theme-aware components */
+.theme-bg-primary { background-color: var(--theme-bg-primary); }
+.theme-bg-secondary { background-color: var(--theme-bg-secondary); }
+.theme-bg-tertiary { background-color: var(--theme-bg-tertiary); }
+
+.theme-text-primary { color: var(--theme-text-primary); }
+.theme-text-secondary { color: var(--theme-text-secondary); }
+.theme-text-muted { color: var(--theme-text-muted); }
+
+.theme-border { border-color: var(--theme-border); }
+.theme-accent { color: var(--theme-accent); }
+
+/* Responsive breakpoints */
+@media (max-width: 480px) {
+  :root {
+    --theme-font-size: 14px;
+    --theme-space-xs: 3px;
+    --theme-space-sm: 6px;
+    --theme-space-md: 9px;
+    --theme-space-lg: 12px;
+    --theme-space-xl: 15px;
+    --theme-space-2xl: 18px;
+    --theme-space-3xl: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --theme-font-size: 18px;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  :root {
+    --theme-transition-fast: 0.01ms;
+    --theme-transition-normal: 0.01ms;
+    --theme-transition-slow: 0.01ms;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --theme-border: #000000;
+    --theme-text-muted: #000000;
+  }
+  
+  [data-theme="light"] {
+    --theme-bg-primary: #ffffff;
+    --theme-text-primary: #000000;
+    --theme-accent: #0000ff;
+  }
+  
+  [data-theme="dark"] {
+    --theme-bg-primary: #000000;
+    --theme-text-primary: #ffffff;
+    --theme-accent: #00ffff;
+  }
+}
+
+/* Print styles */
+@media print {
+  * {
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  
+  .settings-panel,
+  .settings-button,
+  [aria-hidden="true"] {
+    display: none !important;
+  }
+}
